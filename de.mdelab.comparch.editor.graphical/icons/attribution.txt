@@ -1,0 +1,4 @@
+Tenants: People - Created by Wilson Joseph from the Noun Project - https://thenounproject.com/term/people/199531/
+Tenant: Woman - Created by Wilson Joseph from the Noun Project - https://thenounproject.com/term/woman/895257/
+MethodSpecification: Cogwheel - Created by Oliver Kittler from the Noun Project - https://thenounproject.com/term/cogwheel/335729
+Exception: Lightning - Created by Aaron K. Kim from the Noun Project - https://thenounproject.com/term/lightning/130892/

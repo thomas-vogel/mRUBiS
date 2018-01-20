@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="comparch" version="12.0.0.2017041100">
+  <ownedViewpoints name="CompArch" modelFileExtension="comparch">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="OverviewDiagram" initialisation="true" domainClass="comparch::Architecture" enablePopupBars="true">
+      <metamodel href="http://www.mdelab.de/comparch#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="OverviewContainer" label="Overview" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteCompartments']" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditArchitectureName']" semanticCandidatesExpression="var:self" domainClass="comparch::Architecture" childrenPresentation="HorizontalStack">
+          <subContainerMappings name="ComponentTypesContainer" label="ComponentTypes" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteCompartments']" semanticCandidatesExpression="var:self" domainClass="comparch::Architecture" childrenPresentation="List">
+            <subNodeMappings name="ComponentTypeNode" label="ComponentType" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditComponentTypeOrTenantName']" semanticCandidatesExpression="feature:componentTypes" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenComponentTypeDiagram']" domainClass="comparch::ComponentType">
+              <style xsi:type="style:BundledImageDescription" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" sizeComputationExpression="1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Component Types" iconPath="/de.mdelab.comparch.editor.graphical/icons/Components_Icon.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="InterfaceTypesContainer" label="InterfaceTypes" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteCompartments']" semanticCandidatesExpression="var:self" domainClass="comparch::Architecture" childrenPresentation="List">
+            <subNodeMappings name="InterfaceTypeNode" label="InterfaceType" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditInterfaceTypeName']" semanticCandidatesExpression="feature:eAllContents" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenInterfaceTypeDiagram']" domainClass="comparch::InterfaceType">
+              <style xsi:type="style:BundledImageDescription" labelSize="10" labelExpression="feature:fqName" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Interface Types" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interfaces_Icon.svg" backgroundStyle="Liquid">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="TenantsContainer" label="Tenants" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteCompartments']" semanticCandidatesExpression="var:self" domainClass="comparch::Architecture" childrenPresentation="List">
+            <subNodeMappings name="TenantNode" label="Tenant" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditComponentTypeOrTenantName']" semanticCandidatesExpression="feature:tenants" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenTenantArchitectureDiagram']" domainClass="comparch::Tenant">
+              <style xsi:type="style:BundledImageDescription" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenant_Icon.svg" labelAlignment="LEFT" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+              <conditionnalStyles predicateExpression="aql:self.eAllContents().issueImpacts->size()>0">
+                <style xsi:type="style:BundledImageDescription" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenant_Icon.svg" labelAlignment="LEFT" labelPosition="node" resizeKind="NSEW">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelFormat>bold</labelFormat>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                </style>
+              </conditionnalStyles>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Tenants" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenants_Icon.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="24" showIcon="false" widthComputationExpression="1" heightComputationExpression="1" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="TypeOverviewPalette" label="Create Elements">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateComponentType" label="Create Component Type" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="comparch::ComponentType" referenceName="componentTypes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'set component type name'"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateInterfaceType" label="Create Interface Type" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="comparch::InterfaceType" referenceName="interfaceTypes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="fqName" valueExpression="aql:'set fully qualified interface type name'"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateTenant" label="Create Tenant" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='TenantsContainer']/@subNodeMappings[name='TenantNode']" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenant_Icon.svg">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="comparch::Tenant" referenceName="tenants">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'set tenant name'"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditComponentTypeOrTenantName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditInterfaceTypeName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="fqName" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="AvoidDeleteCompartments" precondition="aql:false">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenComponentTypeDiagram" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenInterfaceTypeDiagram" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenTenantArchitectureDiagram" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='TenantsContainer']/@subNodeMappings[name='TenantNode']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditArchitectureName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="ComponentTypeDiagram" titleExpression="[self.name.concat(' Component Type')/]" domainClass="comparch::ComponentType" enablePopupBars="true">
+      <metamodel href="http://www.mdelab.de/comparch#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="ComponentType" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteComponentType']" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditNames']" semanticCandidatesExpression="var:self" domainClass="comparch::ComponentType">
+          <borderedNodeMappings name="ProvidedInterfaceType" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RemoveProvidedInterfaceType']" semanticCandidatesExpression="feature:providedInterfaceTypes" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenInterfaceTypeDiagram']" domainClass="comparch::InterfaceType">
+            <style xsi:type="style:DotDescription" showIcon="false" labelExpression="feature:fqName" tooltipExpression="Provided Interface Type" sizeComputationExpression="2">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="RequiredInterfaceType" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RemoveRequiredInterfaceType']" semanticCandidatesExpression="feature:requiredInterfaceTypes" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenInterfaceTypeDiagram']" domainClass="comparch::InterfaceType">
+            <style xsi:type="style:DotDescription" borderSizeComputationExpression="2" showIcon="false" labelExpression="feature:fqName" tooltipExpression="Required Interface Type" sizeComputationExpression="2">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="ParameterType" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeleteParameterType']" semanticCandidatesExpression="feature:parameterTypes" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditParameterType']" domainClass="comparch::ParameterType">
+            <style xsi:type="style:SquareDescription" borderSizeComputationExpression="2" showIcon="false" labelExpression="aql:self.name.concat(': ').concat(self.defaultValue)" tooltipExpression="Parameter Type" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="2" labelSize="10" showIcon="false" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" width="15" height="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <toolSections name="ComponentTypePalette" label="Component Type">
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditNames" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:SelectionWizardDescription" name="AddProvidedInterfaceType" label="Add Provided Interface Type" precondition="aql:self.oclIsTypeOf(comparch::ComponentType)" forceRefresh="true" candidatesExpression="service:getAllInterfaceTypes" iconPath="/de.mdelab.comparch.editor.graphical/icons/ProvidedInterface_Icon.svg" windowTitle="Select Interface Type as Provided Interface Type">
+            <element name="element"/>
+            <containerView name="containerView"/>
+            <container name="container"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="providedInterfaceTypes" valueExpression="var:element"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="RemoveRequiredInterfaceType" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Unset" featureName="requiringComponentTypes" elementExpression="[self.requiringComponentTypes/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool_1:SelectionWizardDescription" name="AddRequiredInterfaceType " label="Add Required Interface Type" precondition="aql:self.oclIsTypeOf(comparch::ComponentType)" forceRefresh="true" candidatesExpression="service:getAllInterfaceTypes" iconPath="/de.mdelab.comparch.editor.graphical/icons/RequiredInterface_Icon.svg" windowTitle="Select Interface Type as Provided Interface Type">
+            <element name="element"/>
+            <containerView name="containerView"/>
+            <container name="container"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="requiredInterfaceTypes" valueExpression="var:element"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="RemoveProvidedInterfaceType" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Unset" featureName="providingComponentTypes" elementExpression="[self.providingComponentTypes/]"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateParameterType" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']" iconPath="/de.mdelab.comparch.editor.graphical/icons/Parameter_Icon.svg" extraMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="comparch::ParameterType" referenceName="parameterTypes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'set parameter type name and default value'"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="DeleteParameterType" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Unset" featureName="componentType"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="AvoidDeleteComponentType" precondition="aql:false">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenInterfaceTypeDiagram" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:Navigation" createIfNotExistent="true" diagramDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="EditParameterType" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ParameterType']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Edit Parameter Type">
+                <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                  <initialOperation/>
+                </buttons>
+                <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                  <initialOperation/>
+                </buttons>
+                <page name="Default Page" labelExpression="Parameter Type" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditParameterType']/@initialOperation/@firstModelOperations/@groups.0"/>
+                <groups name="Default Group" labelExpression="Attributes" domainClass="comparch::ParameterType" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties:TextDescription" name="setName" labelExpression="Name" valueExpression="feature:name">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:newValue"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </controls>
+                  <controls xsi:type="properties:TextDescription" name="setType" labelExpression="Type" valueExpression="feature:type">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="var:newValue"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </controls>
+                  <controls xsi:type="properties:TextDescription" name="setDefaultValue" labelExpression="Default Value" valueExpression="feature:defaultValue">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="defaultValue" valueExpression="var:newValue"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </controls>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="InterfaceTypeDiagram" titleExpression="[self.fqName.concat(' Interface Type')/]" domainClass="comparch::InterfaceType" enablePopupBars="true">
+      <metamodel href="http://www.mdelab.de/comparch#/"/>
+      <defaultLayer name="Default">
+        <containerMappings name="InterfaceType" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteInterfaceType']" semanticCandidatesExpression="var:self" domainClass="comparch::InterfaceType" childrenPresentation="List">
+          <subNodeMappings name="MethodSpecification" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditSignature']" semanticCandidatesExpression="feature:methodSpecifications" domainClass="comparch::MethodSpecification">
+            <style xsi:type="style:BundledImageDescription" labelSize="10" labelExpression="feature:signature" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelAlignment="LEFT" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" labelExpression="feature:fqName" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" backgroundStyle="Liquid">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Interface Type">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateMethodSpecification" label="Create Method Specification" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer/@containerMappings[name='InterfaceType']/@subNodeMappings[name='MethodSpecification']" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="comparch::MethodSpecification" referenceName="methodSpecifications">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="signature" valueExpression="aql:'set signature'"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditSignature" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="signature" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="AvoidDeleteInterfaceType" precondition="aql:false">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="TenantArchitectureDiagram" label="Tenant Architecture Diagram" titleExpression="aql:self.name.concat(' Architecture')" domainClass="comparch::Tenant" enablePopupBars="true">
+      <metamodel href="http://www.mdelab.de/comparch#/"/>
+      <filters xsi:type="filter:CompositeFilterDescription" name="HideRuntimeInformation" label="Hide all runtime information">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='Exceptions'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='Exceptions']/@subNodeMappings[name='Exception'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='ExceptionsEdge'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='MonitoredProperties'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='MonitoredProperties']/@subNodeMappings[name='MonitoredProperty'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='MonitoredPropertyEdge'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='ProvidedInterfacePerformanceStatsEdge'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
+      </filters>
+      <filters xsi:type="filter:CompositeFilterDescription" name="HideExceptions" label="Hide Exceptions">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='Exceptions'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='Exceptions']/@subNodeMappings[name='Exception'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='ExceptionsEdge']"/>
+      </filters>
+      <filters xsi:type="filter:CompositeFilterDescription" name="HideMonitoredProperties" label="Hide Monitored Properties">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='MonitoredProperties'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='MonitoredProperties']/@subNodeMappings[name='MonitoredProperty'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='MonitoredPropertyEdge']"/>
+      </filters>
+      <filters xsi:type="filter:CompositeFilterDescription" name="HidePerformanceStats" label="Hide Performance Statistics">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='ProvidedInterfacePerformanceStatsEdge'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
+      </filters>
+      <filters xsi:type="filter:CompositeFilterDescription" name="HideAnnotations" label="Hide Annotations">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='WorkingData'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Issue'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='AdaptationStrategy'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='ConcernedElementEdge'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='ImpactEdge'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='InputParameterEdge']"/>
+      </filters>
+      <defaultLayer name="Default">
+        <nodeMappings name="Component" navigationDescriptions="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenComponentType']" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditComponentName']" semanticCandidatesExpression="feature:components" domainClass="comparch::Component">
+          <borderedNodeMappings name="ProvidedInterface" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RemoveProvidedInterfaceType']" semanticCandidatesExpression="feature:providedInterfaces" domainClass="comparch::ProvidedInterface">
+            <style xsi:type="style:DotDescription" showIcon="false" labelExpression="service:getUnqualifiedInterfaceName()" tooltipExpression="Provided Interface" sizeComputationExpression="2">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="RequiredInterface" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RemoveRequiredInterfaceType']" semanticCandidatesExpression="feature:requiredInterfaces" domainClass="comparch::RequiredInterface">
+            <style xsi:type="style:DotDescription" borderSizeComputationExpression="2" showIcon="false" labelExpression="service:getUnqualifiedInterfaceName()" tooltipExpression="Required Interface" sizeComputationExpression="2">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="Parameter" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='DeleteParameterType']" semanticCandidatesExpression="feature:parameters" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditParameter']" domainClass="comparch::Parameter">
+            <style xsi:type="style:SquareDescription" borderSizeComputationExpression="2" showIcon="false" labelExpression="aql:self.type.name.concat(': ').concat(self.value)" tooltipExpression="Parameter" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </borderedNodeMappings>
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="2" labelSize="10" showIcon="false" tooltipExpression="aql:'Component state: '.concat(self.state.toString())" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" width="15" height="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.state == comparch::ComponentState::UNKNOWN">
+            <style xsi:type="style:SquareDescription" borderSizeComputationExpression="2" labelSize="10" showIcon="false" tooltipExpression="aql:'Component state: '.concat(self.state.toString())" sizeComputationExpression="10" labelPosition="node" resizeKind="NSEW" width="15" height="10">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </style>
+          </conditionnalStyles>
+        </nodeMappings>
+        <nodeMappings name="Tenant" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteTenant']" semanticCandidatesExpression="var:self" domainClass="comparch::Tenant">
+          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="-1" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenant_Icon.svg" tooltipExpression="Tenant" labelPosition="node" resizeKind="NSEW" width="15" height="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Issue" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="service:getAllIssues()" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='IssueDetails']" domainClass="comparch::Issue">
+          <style xsi:type="style:DotDescription" labelSize="12" showIcon="false" labelExpression="feature:type" tooltipExpression="Issue" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="WorkingData" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="service:getAllWorkingData()" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='WorkingDataDetails']" domainClass="comparch::WorkingData">
+          <style xsi:type="style:DotDescription" labelSize="12" showIcon="false" labelExpression="feature:type" tooltipExpression="WorkingData" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="AdaptationStrategy" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="service:getAllAdaptationStrategies()" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AdaptationStrategyDetails']" domainClass="comparch::AdaptationStrategy">
+          <style xsi:type="style:DotDescription" labelSize="12" showIcon="false" labelExpression="feature:type" tooltipExpression="Issue" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Connector" sourceMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='RequiredInterface']" targetMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='ProvidedInterface']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="comparch::Connector" useDomainElement="true" reconnections="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ReconnectConnectorTarget'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ReconnectConnectorSource']">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ExceptionsEdge" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" sourceMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='Exceptions']" targetMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='ProvidedInterface']" targetFinderExpression="aql:self">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="MonitoredPropertyEdge" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" sourceMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='MonitoredProperties']" targetMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Parameter'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='ProvidedInterface'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='RequiredInterface'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='Connector']" targetFinderExpression="aql:self">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ImpactEdge" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" sourceMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Issue']" targetMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Parameter'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='ProvidedInterface'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='RequiredInterface'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='Connector']" targetFinderExpression="aql:self.impacts.architecturalElement">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ConcernedElementEdge" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" sourceMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='WorkingData']" targetMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Parameter'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='ProvidedInterface'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='RequiredInterface'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='Connector']" targetFinderExpression="aql:self.concernedElements.architecturalElement">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="InputParameterEdge" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" sourceMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='AdaptationStrategy']" targetMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Parameter'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='ProvidedInterface'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='RequiredInterface'] //@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='Connector']" targetFinderExpression="aql:self.inputParameters.architecturalElement">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="StrategyIssueEdge" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" sourceMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='AdaptationStrategy']" targetMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Issue']" targetFinderExpression="aql:self.assignedIssues">
+          <style lineStyle="dash" targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ProvidedInterfacePerformanceStatsEdge" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" sourceMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']" targetMapping="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='ProvidedInterface']" targetFinderExpression="aql:self">
+          <style lineStyle="dash" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Exceptions" preconditionExpression="aql:self.exceptions->size()>0" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="aql:self.components.providedInterfaces" domainClass="comparch::ProvidedInterface" childrenPresentation="List">
+          <subNodeMappings name="Exception" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="feature:exceptions" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ExceptionDetails']" domainClass="comparch::Exception">
+            <style xsi:type="style:BundledImageDescription" labelExpression="feature:type" iconPath="/de.mdelab.comparch.editor.graphical/icons/Exception_Icon.svg" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" showIcon="false" labelExpression="Exceptions" tooltipExpression="Exceptions thrown when using the associated provided interface">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="MonitoredProperties" preconditionExpression="aql:self.monitoredProperties->size()>0" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="aql:self.eAllContents()" domainClass="comparch::ArchitecturalElement" childrenPresentation="List">
+          <subNodeMappings name="MonitoredProperty" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="feature:monitoredProperties" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='MonitoredPropertyDetails']" domainClass="comparch::MonitoredProperty">
+            <style xsi:type="style:BundledImageDescription" showIcon="false" labelExpression="aql:self.name.concat(': ').concat(self.value).concat(' ').concat(self.unit)" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" showIcon="false" labelExpression="Monitored Properties" tooltipExpression="aql:self.description">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="ProvidedInterfacePerformanceStats" preconditionExpression="aql:self.performanceStats->size()>0" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="aql:self.components.providedInterfaces" domainClass="comparch::ProvidedInterface" childrenPresentation="List">
+          <subNodeMappings name="PerformanceStats" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteRuntimeInformation']" semanticCandidatesExpression="feature:performanceStats" doubleClickDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='PerformanceStatsDetails']" domainClass="comparch::PerformanceStats">
+            <style xsi:type="style:BundledImageDescription" labelExpression="service:getUnqualifiedMethodName" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" showIcon="false" labelExpression="Performance Statistics" tooltipExpression="aql:self.description">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Architecture">
+          <ownedTools xsi:type="tool_1:SelectionWizardDescription" name="InstantiateComponentType" label="Instantiate Component Type" precondition="aql:self.oclIsTypeOf(comparch::Tenant)" forceRefresh="true" candidatesExpression="service:getAllComponentTypes" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg">
+            <element name="element"/>
+            <containerView name="containerView"/>
+            <container name="container"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="components" valueExpression="aql:element.instantiate()"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditComponentName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="EditParameter" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Component']/@borderedNodeMappings[name='Parameter']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Edit Parameter">
+                <buttons labelExpression="Cancel" closeDialogOnClick="true" rollbackChangesOnClose="true">
+                  <initialOperation/>
+                </buttons>
+                <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                  <initialOperation/>
+                </buttons>
+                <page name="Default Page" labelExpression="Parameter" domainClass="comparch::Parameter" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditParameter']/@initialOperation/@firstModelOperations/@groups.0"/>
+                <groups name="Default Group" labelExpression="Attribute" domainClass="comparch::Parameter" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties:LabelDescription" name="ParameterName" labelExpression="Name" valueExpression="aql:self.type.name"/>
+                  <controls xsi:type="properties:LabelDescription" name="ParameterValueType" labelExpression="Type" valueExpression="aql:self.type.type"/>
+                  <controls xsi:type="properties:LabelDescription" name="ParameterDefaultValue" labelExpression="Default Value" valueExpression="aql:self.type.defaultValue"/>
+                  <controls xsi:type="properties:TextDescription" name="setValue" labelExpression="Value" valueExpression="feature:value">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="value" valueExpression="var:newValue"/>
+                      </firstModelOperations>
+                    </initialOperation>
+                  </controls>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DiagramNavigationDescription" name="OpenComponentType" precondition="aql:self.oclIsTypeOf(comparch::Component)" forceRefresh="true" browseExpression="aql:self.type" diagramDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']">
+            <containerViewVariable name="containerView"/>
+            <containerVariable name="container"/>
+            <representationNameVariable name="diagramName"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CreateConnector" precondition="aql:preSource.type == preTarget.type" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@edgeMappings[name='Connector']" iconPath="/de.mdelab.comparch.editor.graphical/icons/Connector_Icon.svg">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="comparch::Connector" referenceName="connector">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:source.type.fqName.concat('__').concat(target.type.fqName)"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="ReconnectConnectorTarget" forceRefresh="true">
+            <source name="source"/>
+            <target name="target"/>
+            <sourceView name="sourceView"/>
+            <targetView name="targetView"/>
+            <element name="element"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Switch">
+                <cases conditionExpression="aql:source.type == target.type">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                </cases>
+                <default>
+                  <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Warning">
+                    <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                      <initialOperation/>
+                    </buttons>
+                    <page name="ConnectorWrongSource" labelExpression="Connector" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ReconnectConnectorTarget']/@initialOperation/@firstModelOperations/@default/@subModelOperations.0/@groups.0"/>
+                    <groups name="Group" labelExpression="Information" semanticCandidateExpression="var:self">
+                      <controls xsi:type="properties:LabelDescription" name="Message" labelExpression="Required and Provided Interfaces must be of the same type to be connected."/>
+                    </groups>
+                  </subModelOperations>
+                </default>
+              </firstModelOperations>
+            </initialOperation>
+            <edgeView name="edgeView"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ReconnectEdgeDescription" name="ReconnectConnectorSource" forceRefresh="true" reconnectionKind="RECONNECT_SOURCE">
+            <source name="source"/>
+            <target name="target"/>
+            <sourceView name="sourceView"/>
+            <targetView name="targetView"/>
+            <element name="element"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Switch">
+                  <cases conditionExpression="aql:source.type == target.type">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:target"/>
+                  </cases>
+                  <default>
+                    <subModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Warning">
+                      <buttons labelExpression="OK" default="true" closeDialogOnClick="true">
+                        <initialOperation/>
+                      </buttons>
+                      <page name="ConnectorWrongSource" labelExpression="Connector" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ReconnectConnectorSource']/@initialOperation/@firstModelOperations/@subModelOperations.0/@default/@subModelOperations.0/@groups.0"/>
+                      <groups name="Group" labelExpression="Information" semanticCandidateExpression="var:self">
+                        <controls xsi:type="properties:LabelDescription" name="Message" labelExpression="Required and Provided Interfaces must be of the same type to be connected."/>
+                      </groups>
+                    </subModelOperations>
+                  </default>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+            <edgeView name="edgeView"/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="ExceptionDetails" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='Exceptions']/@subNodeMappings[name='Exception']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Exception Details">
+                <buttons labelExpression="Close" default="true" closeDialogOnClick="true">
+                  <initialOperation/>
+                </buttons>
+                <page name="Default Page" labelExpression="aql:'Exception '.concat(self.type)" domainClass="comparch::Exception" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='ExceptionDetails']/@initialOperation/@firstModelOperations/@groups.0"/>
+                <groups name="Default Group" labelExpression="Details" domainClass="comparch::Exception" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties:LabelDescription" name="ExceptionType" labelExpression="Type" valueExpression="feature:type"/>
+                  <controls xsi:type="properties:LabelDescription" name="ExceptionMessage" labelExpression="Message" valueExpression="feature:message"/>
+                  <controls xsi:type="properties:LabelDescription" name="RelatedMethod" labelExpression="Method" valueExpression="aql:self.method.signature"/>
+                  <controls xsi:type="properties:LabelDescription" name="RelatedInterface" labelExpression="Interface" valueExpression="aql:self.interface.type.fqName"/>
+                  <controls xsi:type="properties:TextAreaDescription" name="ExceptionStackTrace" labelExpression="Strack Trace" lineCount="15" valueExpression="feature:stackTrace"/>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="MonitoredPropertyDetails" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='MonitoredProperties']/@subNodeMappings[name='MonitoredProperty']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Monitored Property Details">
+                <buttons labelExpression="Close" default="true" closeDialogOnClick="true">
+                  <initialOperation/>
+                </buttons>
+                <page name="Default Page" labelExpression="aql:'Monitored Property '.concat(self.name)" domainClass="comparch::MonitoredProperty" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='MonitoredPropertyDetails']/@initialOperation/@firstModelOperations/@groups.0"/>
+                <groups name="Default Group" labelExpression="Details" domainClass="comparch::MonitoredProperty" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties:LabelDescription" name="MonitoredPropertyName" labelExpression="Name" valueExpression="feature:name"/>
+                  <controls xsi:type="properties:LabelDescription" name="MonitoredPropertyType" labelExpression="Type" valueExpression="feature:type"/>
+                  <controls xsi:type="properties:LabelDescription" name="MonitoredPropertyValue" labelExpression="Value" valueExpression="feature:value"/>
+                  <controls xsi:type="properties:LabelDescription" name="MonitoredPropertyUnit" labelExpression="Unit" valueExpression="feature:unit"/>
+                  <controls xsi:type="properties:TextAreaDescription" name="MonitoredPropertyDescription" labelExpression="Description" lineCount="3" valueExpression="feature:description">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+                    </initialOperation>
+                  </controls>
+                  <controls xsi:type="properties:TextAreaDescription" name="MonitoredElements" labelExpression="Architectural Elements" lineCount="15" valueExpression="service:getMonitoredElements()">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+                    </initialOperation>
+                  </controls>
+                  <controls xsi:type="properties:TextAreaDescription" name="RelatedMonitoredElements" labelExpression="Related Architectural Elements" lineCount="15" valueExpression="service:getRelatedMonitoredElements()">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+                    </initialOperation>
+                  </controls>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="AvoidDeleteRuntimeInformation" precondition="aql:false">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="AvoidDeleteTenant" precondition="aql:false">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation/>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="IssueDetails" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Issue']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Issue Details">
+                <buttons labelExpression="Close" default="true" closeDialogOnClick="true">
+                  <initialOperation/>
+                </buttons>
+                <page name="Default Page" labelExpression="aql:'Issue '.concat(self.type)" domainClass="comparch::Issue" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='IssueDetails']/@initialOperation/@firstModelOperations/@groups.0"/>
+                <groups name="Default Group" labelExpression="Details" domainClass="comparch::Issue" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties:LabelDescription" name="IssueName" labelExpression="Name" valueExpression="feature:name"/>
+                  <controls xsi:type="properties:LabelDescription" name="IssueType" labelExpression="Type" valueExpression="feature:type"/>
+                  <controls xsi:type="properties:LabelDescription" name="IssueUtilityDrop" labelExpression="Utility Drop" valueExpression="feature:utilityDrop"/>
+                  <controls xsi:type="properties:TextAreaDescription" name="IssueDescription" labelExpression="Description" lineCount="3" valueExpression="feature:description">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+                    </initialOperation>
+                  </controls>
+                  <controls xsi:type="properties:TextAreaDescription" name="ImpactedElements" labelExpression="Impacted Elements" lineCount="15" valueExpression="service:getImpactedElements()"/>
+                  <controls xsi:type="properties:TextAreaDescription" name="AssignedAdaptationStrategies" labelExpression="Assigned Adaptation Strategies" lineCount="10" valueExpression="service:getAssignedAdaptationStrategies()">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+                    </initialOperation>
+                  </controls>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="WorkingDataDetails" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='WorkingData']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Working Data Details">
+                <buttons labelExpression="Close" default="true" closeDialogOnClick="true">
+                  <initialOperation/>
+                </buttons>
+                <page name="Default Page" labelExpression="aql:'Working Data '.concat(self.type)" domainClass="comparch::WorkingData" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='WorkingDataDetails']/@initialOperation/@firstModelOperations/@groups.0"/>
+                <groups name="Default Group" labelExpression="Details" domainClass="comparch::WorkingData" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties:LabelDescription" name="WorkingDataName" labelExpression="Name" valueExpression="feature:name"/>
+                  <controls xsi:type="properties:LabelDescription" name="WorkingDataType" labelExpression="Type" valueExpression="feature:type"/>
+                  <controls xsi:type="properties:LabelDescription" name="WorkingDataValue" labelExpression="Value" valueExpression="feature:value"/>
+                  <controls xsi:type="properties:LabelDescription" name="WorkingDataUnit" labelExpression="Unit" valueExpression="feature:unit"/>
+                  <controls xsi:type="properties:TextAreaDescription" name="WorkingDataDescription" labelExpression="Description" lineCount="3" valueExpression="feature:description">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+                    </initialOperation>
+                  </controls>
+                  <controls xsi:type="properties:TextAreaDescription" name="ConcernedElements" labelExpression="Concerned Elements" lineCount="15" valueExpression="service:getConcernedElements()"/>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="AdaptationStrategyDetails" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='AdaptationStrategy']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Adaptation Strategy Details">
+                <buttons labelExpression="Close" default="true" closeDialogOnClick="true">
+                  <initialOperation/>
+                </buttons>
+                <page name="Default Page" labelExpression="aql:'Adaptation Strategy '.concat(self.type)" domainClass="comparch::AdaptationStrategy" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AdaptationStrategyDetails']/@initialOperation/@firstModelOperations/@groups.0"/>
+                <groups name="Default Group" labelExpression="Details" domainClass="comparch::AdaptationStrategy" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties:LabelDescription" name="AdaptationStrategyName" labelExpression="Name" valueExpression="feature:name"/>
+                  <controls xsi:type="properties:LabelDescription" name="AdaptationStrategyType" labelExpression="Type" valueExpression="feature:type"/>
+                  <controls xsi:type="properties:LabelDescription" name="AdaptationStrategyUtilityIncrease" labelExpression="Utility Increase" valueExpression="feature:utilityIncrease"/>
+                  <controls xsi:type="properties:LabelDescription" name="AdaptationStrategyCosts" labelExpression="Costs" valueExpression="feature:costs"/>
+                  <controls xsi:type="properties:TextAreaDescription" name="AdaptationStrategyDescription" labelExpression="Description" lineCount="3" valueExpression="feature:description">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+                    </initialOperation>
+                  </controls>
+                  <controls xsi:type="properties:TextAreaDescription" name="AdaptationStrategyInputElements" labelExpression="Input Elements" lineCount="15" valueExpression="service:getInputElements()"/>
+                  <controls xsi:type="properties:TextAreaDescription" name="AssignedIssues" labelExpression="Assigned Issues" lineCount="10" valueExpression="service:getAssignedIssues()">
+                    <initialOperation>
+                      <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+                    </initialOperation>
+                  </controls>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="PerformanceStatsDetails" forceRefresh="true" mappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="properties:DialogModelOperation" titleExpression="Performance Stats Details">
+                <buttons labelExpression="Close" default="true" closeDialogOnClick="true">
+                  <initialOperation/>
+                </buttons>
+                <page name="Default Page" labelExpression="Performance Stats" domainClass="comparch::PerformanceStats" semanticCandidateExpression="var:self" groups="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='PerformanceStatsDetails']/@initialOperation/@firstModelOperations/@groups.0"/>
+                <groups name="Default Group" labelExpression="Details" domainClass="comparch::PerformanceStats" semanticCandidateExpression="var:self">
+                  <controls xsi:type="properties:TextAreaDescription" name="ReferredMethod" labelExpression="Method" isEnabledExpression="aql:false" valueExpression="aql:self.method.signature"/>
+                  <controls xsi:type="properties:LabelDescription" name="MinTime" labelExpression="MinTime (ms)" valueExpression="feature:minTime"/>
+                  <controls xsi:type="properties:LabelDescription" name="MaxTime" labelExpression="Max Time (ms)" valueExpression="feature:maxTime"/>
+                  <controls xsi:type="properties:LabelDescription" name="totalTime" labelExpression="Total Time (ms)" valueExpression="feature:totalTime"/>
+                  <controls xsi:type="properties:LabelDescription" name="InvocationCount" labelExpression="Invocation Count" valueExpression="feature:invocationCount"/>
+                  <controls xsi:type="properties:LabelDescription" name="AverageTime" labelExpression="Average Time (ms)" valueExpression="aql:self.totalTime.div(self.invocationCount)"/>
+                </groups>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="de.mdelab.comparch.editor.graphical.Services"/>
+  </ownedViewpoints>
+</description:Group>
