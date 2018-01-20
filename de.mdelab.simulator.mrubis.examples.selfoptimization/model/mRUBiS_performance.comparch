@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comparch:Architecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:comparch="http://www.mdelab.de/comparch" uid="_9LhCYPVOEee8PuMtQHUdKg" name="mRUBiS">
+  <componentTypes uid="_9Lo-MPVOEee8PuMtQHUdKg" criticality="0.2119" name="User Management Service" requiredInterfaceTypes="_9LhpcPVOEee8PuMtQHUdKg _9Lmh9_VOEee8PuMtQHUdKg _9LnJEfVOEee8PuMtQHUdKg _9Ll64fVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LnJJPVOEee8PuMtQHUdKg _9LnwEfVOEee8PuMtQHUdKg _9LnwE_VOEee8PuMtQHUdKg _9LnwFfVOEee8PuMtQHUdKg" instances="_9LsokPVOEee8PuMtQHUdKg" reliability="0.9265">
+    <parameterTypes uid="_9LqzYPVOEee8PuMtQHUdKg" name="privacy-level" type="java.lang.String" defaultValue="LOW" instances="_9LtPoPVOEee8PuMtQHUdKg"/>
+  </componentTypes>
+  <componentTypes uid="_9LqzYfVOEee8PuMtQHUdKg" criticality="0.7961" name="Item Management Service" requiredInterfaceTypes="_9LnJEfVOEee8PuMtQHUdKg _9Lmh9_VOEee8PuMtQHUdKg _9LhpcPVOEee8PuMtQHUdKg _9Ll64fVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LlT1PVOEee8PuMtQHUdKg _9LlT2vVOEee8PuMtQHUdKg" instances="_9LvE0PVOEee8PuMtQHUdKg" reliability="0.9119"/>
+  <componentTypes uid="_9LracPVOEee8PuMtQHUdKg" criticality="0.2494" name="Authentication Service" requiredInterfaceTypes="_9LnJEfVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LhpcPVOEee8PuMtQHUdKg" instances="_9LvE1_VOEee8PuMtQHUdKg" reliability="0.904"/>
+  <componentTypes uid="_9LracfVOEee8PuMtQHUdKg" criticality="0.5032" name="Bid and Buy Service" requiredInterfaceTypes="_9LnJEfVOEee8PuMtQHUdKg _9Lmh9_VOEee8PuMtQHUdKg _9LhpcPVOEee8PuMtQHUdKg _9LksxfVOEee8PuMtQHUdKg _9Ll64fVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LkFsPVOEee8PuMtQHUdKg _9LkswPVOEee8PuMtQHUdKg" instances="_9LvE2vVOEee8PuMtQHUdKg" reliability="0.9081"/>
+  <componentTypes uid="_9LracvVOEee8PuMtQHUdKg" criticality="0.8055" name="Inventory Service" requiredInterfaceTypes="_9Lmh9_VOEee8PuMtQHUdKg _9Ll64fVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LksxfVOEee8PuMtQHUdKg" instances="_9LvE4vVOEee8PuMtQHUdKg" reliability="0.8051"/>
+  <componentTypes uid="_9Lrac_VOEee8PuMtQHUdKg" criticality="0.3189" name="Reputation Service" requiredInterfaceTypes="_9LnJEfVOEee8PuMtQHUdKg _9Lmh9_VOEee8PuMtQHUdKg _9LhpcPVOEee8PuMtQHUdKg _9Ll64fVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LnJIvVOEee8PuMtQHUdKg" instances="_9LvE5vVOEee8PuMtQHUdKg" reliability="0.8164"/>
+  <componentTypes uid="_9LradPVOEee8PuMtQHUdKg" criticality="0.6875" name="Persistence Service" providedInterfaceTypes="_9Ll64fVOEee8PuMtQHUdKg" instances="_9LvE7PVOEee8PuMtQHUdKg" reliability="0.8771"/>
+  <componentTypes uid="_9LradfVOEee8PuMtQHUdKg" criticality="0.1027" name="Query Service" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9LnJEfVOEee8PuMtQHUdKg _9Lmh9_VOEee8PuMtQHUdKg" instances="_9LvE7vVOEee8PuMtQHUdKg" reliability="0.9777"/>
+  <componentTypes uid="_9LradvVOEee8PuMtQHUdKg" criticality="0.912" name="Last Second Sales Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvE8vVOEee8PuMtQHUdKg" reliability="0.9066">
+    <parameterTypes uid="_9Lrad_VOEee8PuMtQHUdKg" name="last-seconds" type="java.lang.Integer" defaultValue="300" instances="_9LvE8_VOEee8PuMtQHUdKg"/>
+  </componentTypes>
+  <componentTypes uid="_9LraePVOEee8PuMtQHUdKg" criticality="0.4074" name="Past Sales Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvE9vVOEee8PuMtQHUdKg" reliability="0.8464"/>
+  <componentTypes uid="_9LraefVOEee8PuMtQHUdKg" criticality="0.8967" name="Buy Now Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvE-fVOEee8PuMtQHUdKg" reliability="0.8301"/>
+  <componentTypes uid="_9LraevVOEee8PuMtQHUdKg" criticality="0.1914" name="Availability Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvE_PVOEee8PuMtQHUdKg" reliability="0.9546"/>
+  <componentTypes uid="_9Lrae_VOEee8PuMtQHUdKg" criticality="0.7168" name="Region Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvE__VOEee8PuMtQHUdKg" reliability="0.9999"/>
+  <componentTypes uid="_9LrafPVOEee8PuMtQHUdKg" criticality="0.4063" name="Seller Reputation Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvFAvVOEee8PuMtQHUdKg" reliability="0.9354">
+    <parameterTypes uid="_9LraffVOEee8PuMtQHUdKg" name="reputation-threshold" type="java.lang.Integer" defaultValue="5" instances="_9LvFA_VOEee8PuMtQHUdKg"/>
+  </componentTypes>
+  <componentTypes uid="_9LrafvVOEee8PuMtQHUdKg" criticality="0.3666" name="Comment Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvFBvVOEee8PuMtQHUdKg" reliability="0.8907">
+    <parameterTypes uid="_9Lraf_VOEee8PuMtQHUdKg" name="rating-threshold" type="java.lang.Integer" defaultValue="5" instances="_9LvFB_VOEee8PuMtQHUdKg"/>
+  </componentTypes>
+  <componentTypes uid="_9LragPVOEee8PuMtQHUdKg" criticality="0.8347" name="Category Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvFCvVOEee8PuMtQHUdKg" reliability="0.9244">
+    <parameterTypes uid="_9LragfVOEee8PuMtQHUdKg" name="filtered-categories" type="java.lang.String" defaultValue="Coins,Jewelry" instances="_9LvFC_VOEee8PuMtQHUdKg"/>
+  </componentTypes>
+  <componentTypes uid="_9LragvVOEee8PuMtQHUdKg" criticality="0.2537" name="Recommendation Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvFDvVOEee8PuMtQHUdKg" reliability="0.9216"/>
+  <componentTypes uid="_9Lrag_VOEee8PuMtQHUdKg" criticality="0.2515" name="Future Sales Item Filter" requiredInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" providedInterfaceTypes="_9Lksw_VOEee8PuMtQHUdKg" instances="_9LvFEfVOEee8PuMtQHUdKg" reliability="0.9745">
+    <parameterTypes uid="_9LrahPVOEee8PuMtQHUdKg" name="days-to-run" type="java.lang.Integer" defaultValue="14" instances="_9LvFEvVOEee8PuMtQHUdKg"/>
+  </componentTypes>
+  <componentTypes uid="_9LrahfVOEee8PuMtQHUdKg" criticality="0.7608" name="Facebook Authentication Service" requiredInterfaceTypes="_9LnJEfVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LhpcPVOEee8PuMtQHUdKg" reliability="0.8382">
+    <parameterTypes uid="_9LrahvVOEee8PuMtQHUdKg" name="ServiceURI" type="java.lang.String" defaultValue="http://localhost:8080/FacebookAuthenticationService/FbAuthenticationServiceImpl?wsdl"/>
+    <parameterTypes uid="_9Lrah_VOEee8PuMtQHUdKg" name="ServiceNS" type="java.lang.String" defaultValue="http://authentication.facebook.com/"/>
+    <parameterTypes uid="_9LraiPVOEee8PuMtQHUdKg" name="ServiceNsLocalPartName" type="java.lang.String" defaultValue="FacebookAuthenticationService"/>
+  </componentTypes>
+  <componentTypes uid="_9LraifVOEee8PuMtQHUdKg" criticality="0.7784" name="Google Authentication Service" requiredInterfaceTypes="_9LnJEfVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LhpcPVOEee8PuMtQHUdKg" reliability="0.9519">
+    <parameterTypes uid="_9LraivVOEee8PuMtQHUdKg" name="ServiceURI" type="java.lang.String" defaultValue="http://localhost:8080/GoogleAuthenticationService/GoogleAuthenticationServiceImpl?wsdl"/>
+    <parameterTypes uid="_9Lrai_VOEee8PuMtQHUdKg" name="ServiceNS" type="java.lang.String" defaultValue="http://authentication.google.com/"/>
+    <parameterTypes uid="_9LrajPVOEee8PuMtQHUdKg" name="ServiceNsLocalPartName" type="java.lang.String" defaultValue="GoogleAuthenticationService"/>
+  </componentTypes>
+  <componentTypes uid="_9LrajfVOEee8PuMtQHUdKg" criticality="0.7014" name="Twitter Authentication Service" requiredInterfaceTypes="_9LnJEfVOEee8PuMtQHUdKg" providedInterfaceTypes="_9LhpcPVOEee8PuMtQHUdKg" reliability="0.9673">
+    <parameterTypes uid="_9LrajvVOEee8PuMtQHUdKg" name="ServiceURI" type="java.lang.String" defaultValue="http://localhost:8080/TwitterAuthenticationService/TwitterAuthenticationServiceImpl?wsdl"/>
+    <parameterTypes uid="_9Lraj_VOEee8PuMtQHUdKg" name="ServiceNS" type="java.lang.String" defaultValue="http://authentication.twitter.com/"/>
+    <parameterTypes uid="_9LrakPVOEee8PuMtQHUdKg" name="ServiceNsLocalPartName" type="java.lang.String" defaultValue="TwitterAuthenticationService"/>
+  </componentTypes>
+  <interfaceTypes uid="_9LhpcPVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.authservice.AuthenticationService" requiringComponentTypes="_9Lo-MPVOEee8PuMtQHUdKg _9LqzYfVOEee8PuMtQHUdKg _9LracfVOEee8PuMtQHUdKg _9Lrac_VOEee8PuMtQHUdKg" providingComponentTypes="_9LracPVOEee8PuMtQHUdKg _9LrahfVOEee8PuMtQHUdKg _9LraifVOEee8PuMtQHUdKg _9LrajfVOEee8PuMtQHUdKg" instances="_9LudwPVOEee8PuMtQHUdKg _9LvE0_VOEee8PuMtQHUdKg _9LvE2fVOEee8PuMtQHUdKg _9LvE3fVOEee8PuMtQHUdKg _9LvE6fVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LjeoPVOEee8PuMtQHUdKg" signature="authenticate(java.lang.String,java.lang.String)" performanceStats="_9LxhGPVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LkFsPVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.bidandbuy.BidService" providingComponentTypes="_9LracfVOEee8PuMtQHUdKg" instances="_9LvE4PVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LkFsfVOEee8PuMtQHUdKg" signature="bidOnItem(int,float,float,int,java.lang.String,java.lang.String)" performanceStats="_9LxhGfVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LkFsvVOEee8PuMtQHUdKg" signature="getItemBidHistory(int)"/>
+    <methodSpecifications uid="_9LkFs_VOEee8PuMtQHUdKg" signature="getItemBidHistorySortyByBidPrice(int)" performanceStats="_9LxhGvVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LkswPVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.bidandbuy.BuyNowService" providingComponentTypes="_9LracfVOEee8PuMtQHUdKg" instances="_9LvE4fVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LkswfVOEee8PuMtQHUdKg" signature="buyItemNow(int,int,java.lang.String,java.lang.String)" performanceStats="_9LxhG_VOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LkswvVOEee8PuMtQHUdKg" signature="getNumberOfAvailableInstances(int)"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9Lksw_VOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.filter.ItemFilter" requiringComponentTypes="_9LradfVOEee8PuMtQHUdKg _9LradvVOEee8PuMtQHUdKg _9LraePVOEee8PuMtQHUdKg _9LraefVOEee8PuMtQHUdKg _9LraevVOEee8PuMtQHUdKg _9Lrae_VOEee8PuMtQHUdKg _9LrafPVOEee8PuMtQHUdKg _9LrafvVOEee8PuMtQHUdKg _9LragPVOEee8PuMtQHUdKg _9LragvVOEee8PuMtQHUdKg _9Lrag_VOEee8PuMtQHUdKg" providingComponentTypes="_9LradvVOEee8PuMtQHUdKg _9LraePVOEee8PuMtQHUdKg _9LraefVOEee8PuMtQHUdKg _9LraevVOEee8PuMtQHUdKg _9Lrae_VOEee8PuMtQHUdKg _9LrafPVOEee8PuMtQHUdKg _9LrafvVOEee8PuMtQHUdKg _9LragPVOEee8PuMtQHUdKg _9LragvVOEee8PuMtQHUdKg _9Lrag_VOEee8PuMtQHUdKg" instances="_9LvE7_VOEee8PuMtQHUdKg _9LvE9PVOEee8PuMtQHUdKg _9LvE9fVOEee8PuMtQHUdKg _9LvE9_VOEee8PuMtQHUdKg _9LvE-PVOEee8PuMtQHUdKg _9LvE-vVOEee8PuMtQHUdKg _9LvE-_VOEee8PuMtQHUdKg _9LvE_fVOEee8PuMtQHUdKg _9LvE_vVOEee8PuMtQHUdKg _9LvFAPVOEee8PuMtQHUdKg _9LvFAfVOEee8PuMtQHUdKg _9LvFBPVOEee8PuMtQHUdKg _9LvFBfVOEee8PuMtQHUdKg _9LvFCPVOEee8PuMtQHUdKg _9LvFCfVOEee8PuMtQHUdKg _9LvFDPVOEee8PuMtQHUdKg _9LvFDfVOEee8PuMtQHUdKg _9LvFD_VOEee8PuMtQHUdKg _9LvFEPVOEee8PuMtQHUdKg _9LvFE_VOEee8PuMtQHUdKg _9LvFFPVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LksxPVOEee8PuMtQHUdKg" signature="filter(java.util.List,de.hpi.sam.rubis.entity.User)" performanceStats="_9LyINfVOEee8PuMtQHUdKg _9LzWQfVOEee8PuMtQHUdKg _9LzWRPVOEee8PuMtQHUdKg _9LzWR_VOEee8PuMtQHUdKg _9LzWSvVOEee8PuMtQHUdKg _9LzWTfVOEee8PuMtQHUdKg _9LzWUPVOEee8PuMtQHUdKg _9LzWU_VOEee8PuMtQHUdKg _9LzWVvVOEee8PuMtQHUdKg _9LzWWfVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LksxfVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.inventorymgmt.InventoryService" requiringComponentTypes="_9LracfVOEee8PuMtQHUdKg" providingComponentTypes="_9LracvVOEee8PuMtQHUdKg" instances="_9LvE3vVOEee8PuMtQHUdKg _9LvE5fVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LlT0PVOEee8PuMtQHUdKg" signature="checkAvailabilityOfItem(de.hpi.sam.rubis.entity.Item)" performanceStats="_9LxhHPVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LlT0fVOEee8PuMtQHUdKg" signature="checkAvailabilityOfItem(int)"/>
+    <methodSpecifications uid="_9LlT0vVOEee8PuMtQHUdKg" signature="cancelReservedItem(de.hpi.sam.rubis.entity.Item,int)"/>
+    <methodSpecifications uid="_9LlT0_VOEee8PuMtQHUdKg" signature="reserveItem(de.hpi.sam.rubis.entity.Item,int)" performanceStats="_9LxhHfVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LlT1PVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.itemmgmt.BrowseCategoriesService" providingComponentTypes="_9LqzYfVOEee8PuMtQHUdKg" instances="_9LvE1fVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LlT1fVOEee8PuMtQHUdKg" signature="getCategoriesInRegion(java.lang.String)"/>
+    <methodSpecifications uid="_9LlT1vVOEee8PuMtQHUdKg" signature="getAllCategories()" performanceStats="_9LxhFfVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LlT1_VOEee8PuMtQHUdKg" signature="getCategoriesByName(java.lang.String)"/>
+    <methodSpecifications uid="_9LlT2PVOEee8PuMtQHUdKg" signature="getItemsByName(java.lang.String)" performanceStats="_9LxhFvVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LlT2fVOEee8PuMtQHUdKg" signature="getPersonalizedItems(java.lang.String,java.lang.String)" performanceStats="_9LxhF_VOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LlT2vVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.itemmgmt.ItemRegistrationService" providingComponentTypes="_9LqzYfVOEee8PuMtQHUdKg" instances="_9LvE1vVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9Ll64PVOEee8PuMtQHUdKg" signature="registerItem(java.lang.String,java.lang.String,int,float,float,float,java.util.Date,java.util.Date,int,java.lang.String,int)" performanceStats="_9LxhFPVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9Ll64fVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService" requiringComponentTypes="_9Lo-MPVOEee8PuMtQHUdKg _9LqzYfVOEee8PuMtQHUdKg _9LracfVOEee8PuMtQHUdKg _9LracvVOEee8PuMtQHUdKg _9Lrac_VOEee8PuMtQHUdKg" providingComponentTypes="_9LradPVOEee8PuMtQHUdKg" instances="_9Ludw_VOEee8PuMtQHUdKg _9LvE1PVOEee8PuMtQHUdKg _9LvE3_VOEee8PuMtQHUdKg _9LvE5PVOEee8PuMtQHUdKg _9LvE6vVOEee8PuMtQHUdKg _9LvE7fVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9Lmh8PVOEee8PuMtQHUdKg" signature="persistUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,de.hpi.sam.rubis.entity.Region,de.hpi.sam.rubis.entity.CustomerClass)" performanceStats="_9LyIIPVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9Lmh8fVOEee8PuMtQHUdKg" signature="persistItem(java.lang.String,java.lang.String,int,float,float,float,java.util.Date,java.util.Date,de.hpi.sam.rubis.entity.User,de.hpi.sam.rubis.entity.Category)" performanceStats="_9LyIIfVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9Lmh8vVOEee8PuMtQHUdKg" signature="increaseInventoryItem(de.hpi.sam.rubis.entity.Item,int)"/>
+    <methodSpecifications uid="_9Lmh8_VOEee8PuMtQHUdKg" signature="persistBid(de.hpi.sam.rubis.entity.User,de.hpi.sam.rubis.entity.Item,float,float,int,java.util.Date)" performanceStats="_9LyIIvVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9Lmh9PVOEee8PuMtQHUdKg" signature="persistBuyNow(de.hpi.sam.rubis.entity.User,de.hpi.sam.rubis.entity.Item,int,java.util.Date)" performanceStats="_9LyII_VOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9Lmh9fVOEee8PuMtQHUdKg" signature="persistComment(de.hpi.sam.rubis.entity.User,de.hpi.sam.rubis.entity.User,de.hpi.sam.rubis.entity.Item,java.lang.String,int,java.util.Date)" performanceStats="_9LyIJPVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9Lmh9vVOEee8PuMtQHUdKg" signature="reduceInventoryItem(de.hpi.sam.rubis.entity.Item,int)" performanceStats="_9LyIJfVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9Lmh9_VOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.queryservice.QueryService" requiringComponentTypes="_9Lo-MPVOEee8PuMtQHUdKg _9LqzYfVOEee8PuMtQHUdKg _9LracfVOEee8PuMtQHUdKg _9LracvVOEee8PuMtQHUdKg _9Lrac_VOEee8PuMtQHUdKg" providingComponentTypes="_9LradfVOEee8PuMtQHUdKg" instances="_9LudwfVOEee8PuMtQHUdKg _9LvE0vVOEee8PuMtQHUdKg _9LvE3PVOEee8PuMtQHUdKg _9LvE4_VOEee8PuMtQHUdKg _9LvE6PVOEee8PuMtQHUdKg _9LvE8fVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LnJAPVOEee8PuMtQHUdKg" signature="findCurrentItemsInCategoryAndRegion(int,int,int)"/>
+    <methodSpecifications uid="_9LnJAfVOEee8PuMtQHUdKg" signature="findPastItemsInCategoryAndRegion(int,int,int)"/>
+    <methodSpecifications uid="_9LnJAvVOEee8PuMtQHUdKg" signature="findItemMaxBids(int,int)" performanceStats="_9LyIMPVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJA_VOEee8PuMtQHUdKg" signature="findItemBidHistory(int)"/>
+    <methodSpecifications uid="_9LnJBPVOEee8PuMtQHUdKg" signature="findSuccessfulBidsForItem(int)"/>
+    <methodSpecifications uid="_9LnJBfVOEee8PuMtQHUdKg" signature="findUserBuyNows(int,int)"/>
+    <methodSpecifications uid="_9LnJBvVOEee8PuMtQHUdKg" signature="findUserCurrentSellings(int)"/>
+    <methodSpecifications uid="_9LnJB_VOEee8PuMtQHUdKg" signature="findUserPastSellings(int,int)"/>
+    <methodSpecifications uid="_9LnJCPVOEee8PuMtQHUdKg" signature="findUserPastWinningBids(int)" performanceStats="_9LyIMfVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJCfVOEee8PuMtQHUdKg" signature="findUserCurrentMaxBids(int)" performanceStats="_9LyIMvVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJCvVOEee8PuMtQHUdKg" signature="findCategoriesInRegion(java.lang.String)"/>
+    <methodSpecifications uid="_9LnJC_VOEee8PuMtQHUdKg" signature="getNumberOfBidsForItem(int)"/>
+    <methodSpecifications uid="_9LnJDPVOEee8PuMtQHUdKg" signature="findComment(int,int,int)" performanceStats="_9LyIM_VOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJDfVOEee8PuMtQHUdKg" signature="retrieveAvailabilityOfItem(int)" performanceStats="_9LyINPVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJDvVOEee8PuMtQHUdKg" signature="findPastItemsInCategory(int,int)"/>
+    <methodSpecifications uid="_9LnJD_VOEee8PuMtQHUdKg" signature="findCurrentItemsInCategory(int,int)"/>
+    <methodSpecifications uid="_9LnJEPVOEee8PuMtQHUdKg" signature="findItemMaxBid(int)"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LnJEfVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.queryservice.BasicQueryService" requiringComponentTypes="_9Lo-MPVOEee8PuMtQHUdKg _9LqzYfVOEee8PuMtQHUdKg _9LracPVOEee8PuMtQHUdKg _9LracfVOEee8PuMtQHUdKg _9Lrac_VOEee8PuMtQHUdKg _9LrahfVOEee8PuMtQHUdKg _9LraifVOEee8PuMtQHUdKg _9LrajfVOEee8PuMtQHUdKg" providingComponentTypes="_9LradfVOEee8PuMtQHUdKg" instances="_9LudwvVOEee8PuMtQHUdKg _9LvE0fVOEee8PuMtQHUdKg _9LvE2PVOEee8PuMtQHUdKg _9LvE2_VOEee8PuMtQHUdKg _9LvE5_VOEee8PuMtQHUdKg _9LvE8PVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LnJEvVOEee8PuMtQHUdKg" signature="findUserById(int)" performanceStats="_9LyIJvVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJE_VOEee8PuMtQHUdKg" signature="findUserByNickname(java.lang.String)" performanceStats="_9LyIJ_VOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJFPVOEee8PuMtQHUdKg" signature="findAllCategories()" performanceStats="_9LyIKPVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJFfVOEee8PuMtQHUdKg" signature="findCategoryById(int)" performanceStats="_9LyIKfVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJFvVOEee8PuMtQHUdKg" signature="findCategoryByName(java.lang.String)"/>
+    <methodSpecifications uid="_9LnJF_VOEee8PuMtQHUdKg" signature="findCategoriesByName(java.lang.String)"/>
+    <methodSpecifications uid="_9LnJGPVOEee8PuMtQHUdKg" signature="findAllRegions()" performanceStats="_9LyIKvVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJGfVOEee8PuMtQHUdKg" signature="findRegionById(int)"/>
+    <methodSpecifications uid="_9LnJGvVOEee8PuMtQHUdKg" signature="findRegionByName(java.lang.String)" performanceStats="_9LyIK_VOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJG_VOEee8PuMtQHUdKg" signature="findRegionsByName(java.lang.String)"/>
+    <methodSpecifications uid="_9LnJHPVOEee8PuMtQHUdKg" signature="findItemsByName(java.lang.String)" performanceStats="_9LyILPVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJHfVOEee8PuMtQHUdKg" signature="findItemById(int)" performanceStats="_9LyILfVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJHvVOEee8PuMtQHUdKg" signature="findAllItems()"/>
+    <methodSpecifications uid="_9LnJH_VOEee8PuMtQHUdKg" signature="findPersonalizedItems(de.hpi.sam.rubis.entity.User)" performanceStats="_9LyILvVOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJIPVOEee8PuMtQHUdKg" signature="isUserNicknameUsed(java.lang.String)" performanceStats="_9LyIL_VOEee8PuMtQHUdKg"/>
+    <methodSpecifications uid="_9LnJIfVOEee8PuMtQHUdKg" signature="findAllUsers()"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LnJIvVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.reputationservice.ReputationService" providingComponentTypes="_9Lrac_VOEee8PuMtQHUdKg" instances="_9LvE6_VOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LnJI_VOEee8PuMtQHUdKg" signature="giveComment(java.lang.String,java.lang.String,int,int,java.lang.String,int)" performanceStats="_9LxhHvVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LnJJPVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.usermgmt.AboutMeService" providingComponentTypes="_9Lo-MPVOEee8PuMtQHUdKg" instances="_9LudxPVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LnwEPVOEee8PuMtQHUdKg" signature="getAboutMe(java.lang.String,java.lang.String)" performanceStats="_9LxhEPVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LnwEfVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.usermgmt.BrowseRegionsService" providingComponentTypes="_9Lo-MPVOEee8PuMtQHUdKg" instances="_9LudxfVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LnwEvVOEee8PuMtQHUdKg" signature="getAllRegions()" performanceStats="_9LxhEvVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LnwE_VOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.usermgmt.UserRegistrationService" providingComponentTypes="_9Lo-MPVOEee8PuMtQHUdKg" instances="_9LudxvVOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LnwFPVOEee8PuMtQHUdKg" signature="registerUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,de.hpi.sam.rubis.entity.CustomerClass)" performanceStats="_9LxhE_VOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <interfaceTypes uid="_9LnwFfVOEee8PuMtQHUdKg" fqName="de.hpi.sam.rubis.usermgmt.ViewUserInfoService" providingComponentTypes="_9Lo-MPVOEee8PuMtQHUdKg" instances="_9Ludx_VOEee8PuMtQHUdKg">
+    <methodSpecifications uid="_9LoXIPVOEee8PuMtQHUdKg" signature="getUserInfo(int)" performanceStats="_9LxhEfVOEee8PuMtQHUdKg"/>
+  </interfaceTypes>
+  <tenants uid="_9LsBgPVOEee8PuMtQHUdKg" name="mRUBiS Tenant #1">
+    <components uid="_9LsokPVOEee8PuMtQHUdKg" criticality="0.2119" type="_9Lo-MPVOEee8PuMtQHUdKg" state="STARTED" name="User Management Service">
+      <parameters uid="_9LtPoPVOEee8PuMtQHUdKg" value="LOW" type="_9LqzYPVOEee8PuMtQHUdKg"/>
+      <requiredInterfaces uid="_9LudwPVOEee8PuMtQHUdKg" type="_9LhpcPVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr6fVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.authservice.AuthenticationService_to_de.hpi.sam.rubis.authservice.AuthenticationService" target="_9LvE2fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LudwfVOEee8PuMtQHUdKg" type="_9Lmh9_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr6vVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.QueryService_to_de.hpi.sam.rubis.queryservice.QueryService" target="_9LvE8fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LudwvVOEee8PuMtQHUdKg" type="_9LnJEfVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr6_VOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.BasicQueryService_to_de.hpi.sam.rubis.queryservice.BasicQueryService" target="_9LvE8PVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9Ludw_VOEee8PuMtQHUdKg" type="_9Ll64fVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr6PVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService_to_de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService" target="_9LvE7fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LudxPVOEee8PuMtQHUdKg" type="_9LnJJPVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhEPVOEee8PuMtQHUdKg" minTime="39" maxTime="556" totalTime="1294" invocationCount="6" method="_9LnwEPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+      <providedInterfaces uid="_9LudxfVOEee8PuMtQHUdKg" type="_9LnwEfVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhEvVOEee8PuMtQHUdKg" minTime="203" maxTime="1550" totalTime="3459" invocationCount="6" method="_9LnwEvVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+      <providedInterfaces uid="_9LudxvVOEee8PuMtQHUdKg" type="_9LnwE_VOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhE_VOEee8PuMtQHUdKg" minTime="13" maxTime="937" totalTime="2109" invocationCount="6" method="_9LnwFPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+      <providedInterfaces uid="_9Ludx_VOEee8PuMtQHUdKg" type="_9LnwFfVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhEfVOEee8PuMtQHUdKg" minTime="188" maxTime="404" totalTime="907" invocationCount="3" method="_9LoXIPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE0PVOEee8PuMtQHUdKg" criticality="0.7961" type="_9LqzYfVOEee8PuMtQHUdKg" state="STARTED" name="Item Management Service">
+      <requiredInterfaces uid="_9LvE0fVOEee8PuMtQHUdKg" type="_9LnJEfVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr5_VOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.BasicQueryService_to_de.hpi.sam.rubis.queryservice.BasicQueryService" target="_9LvE8PVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE0vVOEee8PuMtQHUdKg" type="_9Lmh9_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr5vVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.QueryService_to_de.hpi.sam.rubis.queryservice.QueryService" target="_9LvE8fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE0_VOEee8PuMtQHUdKg" type="_9LhpcPVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr5fVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.authservice.AuthenticationService_to_de.hpi.sam.rubis.authservice.AuthenticationService" target="_9LvE2fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE1PVOEee8PuMtQHUdKg" type="_9Ll64fVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr5PVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService_to_de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService" target="_9LvE7fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE1fVOEee8PuMtQHUdKg" type="_9LlT1PVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhFfVOEee8PuMtQHUdKg" minTime="190" maxTime="652" totalTime="1185" invocationCount="3" method="_9LlT1vVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LxhFvVOEee8PuMtQHUdKg" minTime="196" maxTime="391" totalTime="853" invocationCount="3" method="_9LlT2PVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LxhF_VOEee8PuMtQHUdKg" minTime="680" maxTime="996" totalTime="26910" invocationCount="30" method="_9LlT2fVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+      <providedInterfaces uid="_9LvE1vVOEee8PuMtQHUdKg" type="_9LlT2vVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhFPVOEee8PuMtQHUdKg" minTime="363" maxTime="1349" totalTime="2425" invocationCount="3" method="_9Ll64PVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE1_VOEee8PuMtQHUdKg" criticality="0.2494" type="_9LracPVOEee8PuMtQHUdKg" state="STARTED" name="Authentication Service">
+      <requiredInterfaces uid="_9LvE2PVOEee8PuMtQHUdKg" type="_9LnJEfVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr7PVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.BasicQueryService_to_de.hpi.sam.rubis.queryservice.BasicQueryService" target="_9LvE8PVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE2fVOEee8PuMtQHUdKg" type="_9LhpcPVOEee8PuMtQHUdKg" connectors="_9Lvr4vVOEee8PuMtQHUdKg _9Lvr5fVOEee8PuMtQHUdKg _9Lvr6fVOEee8PuMtQHUdKg _9Lvr7_VOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhGPVOEee8PuMtQHUdKg" minTime="50" maxTime="153" totalTime="3675" invocationCount="48" method="_9LjeoPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE2vVOEee8PuMtQHUdKg" criticality="0.5032" type="_9LracfVOEee8PuMtQHUdKg" state="STARTED" name="Bid and Buy Service">
+      <requiredInterfaces uid="_9LvE2_VOEee8PuMtQHUdKg" type="_9LnJEfVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr8fVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.BasicQueryService_to_de.hpi.sam.rubis.queryservice.BasicQueryService" target="_9LvE8PVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE3PVOEee8PuMtQHUdKg" type="_9Lmh9_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr8PVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.QueryService_to_de.hpi.sam.rubis.queryservice.QueryService" target="_9LvE8fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE3fVOEee8PuMtQHUdKg" type="_9LhpcPVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr7_VOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.authservice.AuthenticationService_to_de.hpi.sam.rubis.authservice.AuthenticationService" target="_9LvE2fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE3vVOEee8PuMtQHUdKg" type="_9LksxfVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr7fVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.inventorymgmt.InventoryService_to_de.hpi.sam.rubis.inventorymgmt.InventoryService" target="_9LvE5fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE3_VOEee8PuMtQHUdKg" type="_9Ll64fVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr7vVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService_to_de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService" target="_9LvE7fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE4PVOEee8PuMtQHUdKg" type="_9LkFsPVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhGfVOEee8PuMtQHUdKg" minTime="423" maxTime="1086" totalTime="2138" invocationCount="3" method="_9LkFsfVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LxhGvVOEee8PuMtQHUdKg" minTime="13" maxTime="402" totalTime="908" invocationCount="6" method="_9LkFs_VOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+      <providedInterfaces uid="_9LvE4fVOEee8PuMtQHUdKg" type="_9LkswPVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhG_VOEee8PuMtQHUdKg" minTime="335" maxTime="620" totalTime="1375" invocationCount="3" method="_9LkswfVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE4vVOEee8PuMtQHUdKg" criticality="0.8055" type="_9LracvVOEee8PuMtQHUdKg" state="STARTED" name="Inventory Service">
+      <requiredInterfaces uid="_9LvE4_VOEee8PuMtQHUdKg" type="_9Lmh9_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr8vVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.QueryService_to_de.hpi.sam.rubis.queryservice.QueryService" target="_9LvE8fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE5PVOEee8PuMtQHUdKg" type="_9Ll64fVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr8_VOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService_to_de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService" target="_9LvE7fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE5fVOEee8PuMtQHUdKg" type="_9LksxfVOEee8PuMtQHUdKg" connectors="_9Lvr7fVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhHPVOEee8PuMtQHUdKg" minTime="7" maxTime="37" totalTime="109" invocationCount="6" method="_9LlT0PVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LxhHfVOEee8PuMtQHUdKg" minTime="30" maxTime="40" totalTime="103" invocationCount="3" method="_9LlT0_VOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE5vVOEee8PuMtQHUdKg" criticality="0.3189" type="_9Lrac_VOEee8PuMtQHUdKg" state="STARTED" name="Reputation Service">
+      <requiredInterfaces uid="_9LvE5_VOEee8PuMtQHUdKg" type="_9LnJEfVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr4PVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.BasicQueryService_to_de.hpi.sam.rubis.queryservice.BasicQueryService" target="_9LvE8PVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE6PVOEee8PuMtQHUdKg" type="_9Lmh9_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr4fVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.QueryService_to_de.hpi.sam.rubis.queryservice.QueryService" target="_9LvE8fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE6fVOEee8PuMtQHUdKg" type="_9LhpcPVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr4vVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.authservice.AuthenticationService_to_de.hpi.sam.rubis.authservice.AuthenticationService" target="_9LvE2fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <requiredInterfaces uid="_9LvE6vVOEee8PuMtQHUdKg" type="_9Ll64fVOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr4_VOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService_to_de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService" target="_9LvE7fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE6_VOEee8PuMtQHUdKg" type="_9LnJIvVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LxhHvVOEee8PuMtQHUdKg" minTime="436" maxTime="793" totalTime="1770" invocationCount="3" method="_9LnJI_VOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE7PVOEee8PuMtQHUdKg" criticality="0.6875" type="_9LradPVOEee8PuMtQHUdKg" state="STARTED" name="Persistence Service">
+      <providedInterfaces uid="_9LvE7fVOEee8PuMtQHUdKg" type="_9Ll64fVOEee8PuMtQHUdKg" connectors="_9Lvr4_VOEee8PuMtQHUdKg _9Lvr5PVOEee8PuMtQHUdKg _9Lvr6PVOEee8PuMtQHUdKg _9Lvr7vVOEee8PuMtQHUdKg _9Lvr8_VOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LyIIPVOEee8PuMtQHUdKg" minTime="1" maxTime="433" totalTime="969" invocationCount="6" method="_9Lmh8PVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIIfVOEee8PuMtQHUdKg" minTime="170" maxTime="550" totalTime="1063" invocationCount="3" method="_9Lmh8fVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIIvVOEee8PuMtQHUdKg" minTime="200" maxTime="445" totalTime="935" invocationCount="3" method="_9Lmh8_VOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyII_VOEee8PuMtQHUdKg" minTime="61" maxTime="122" totalTime="301" invocationCount="3" method="_9Lmh9PVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIJPVOEee8PuMtQHUdKg" minTime="169" maxTime="353" totalTime="737" invocationCount="3" method="_9Lmh9fVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIJfVOEee8PuMtQHUdKg" minTime="10" maxTime="15" totalTime="39" invocationCount="3" method="_9Lmh9vVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE7vVOEee8PuMtQHUdKg" criticality="0.1027" type="_9LradfVOEee8PuMtQHUdKg" state="STARTED" name="Query Service">
+      <requiredInterfaces uid="_9LvE7_VOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr9PVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvE9fVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE8PVOEee8PuMtQHUdKg" type="_9LnJEfVOEee8PuMtQHUdKg" connectors="_9Lvr4PVOEee8PuMtQHUdKg _9Lvr5_VOEee8PuMtQHUdKg _9Lvr6_VOEee8PuMtQHUdKg _9Lvr7PVOEee8PuMtQHUdKg _9Lvr8fVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LyIJvVOEee8PuMtQHUdKg" minTime="10" maxTime="377" totalTime="896" invocationCount="9" method="_9LnJEvVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIJ_VOEee8PuMtQHUdKg" minTime="2" maxTime="479" totalTime="3495" invocationCount="48" method="_9LnJE_VOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIKPVOEee8PuMtQHUdKg" minTime="184" maxTime="619" totalTime="1134" invocationCount="3" method="_9LnJFPVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIKfVOEee8PuMtQHUdKg" minTime="167" maxTime="717" totalTime="1210" invocationCount="3" method="_9LnJFfVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIKvVOEee8PuMtQHUdKg" minTime="194" maxTime="1484" totalTime="3335" invocationCount="6" method="_9LnJGPVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIK_VOEee8PuMtQHUdKg" minTime="5" maxTime="442" totalTime="977" invocationCount="6" method="_9LnJGvVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyILPVOEee8PuMtQHUdKg" minTime="188" maxTime="375" totalTime="819" invocationCount="3" method="_9LnJHPVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyILfVOEee8PuMtQHUdKg" minTime="1" maxTime="2" totalTime="13" invocationCount="9" method="_9LnJHfVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyILvVOEee8PuMtQHUdKg" minTime="600" maxTime="900" totalTime="24480" invocationCount="30" method="_9LnJH_VOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIL_VOEee8PuMtQHUdKg" minTime="4" maxTime="12" totalTime="43" invocationCount="6" method="_9LnJIPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+      <providedInterfaces uid="_9LvE8fVOEee8PuMtQHUdKg" type="_9Lmh9_VOEee8PuMtQHUdKg" connectors="_9Lvr4fVOEee8PuMtQHUdKg _9Lvr5vVOEee8PuMtQHUdKg _9Lvr6vVOEee8PuMtQHUdKg _9Lvr8PVOEee8PuMtQHUdKg _9Lvr8vVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LyIMPVOEee8PuMtQHUdKg" minTime="11" maxTime="393" totalTime="881" invocationCount="6" method="_9LnJAvVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIMfVOEee8PuMtQHUdKg" minTime="12" maxTime="38" totalTime="118" invocationCount="6" method="_9LnJCPVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIMvVOEee8PuMtQHUdKg" minTime="12" maxTime="20" totalTime="91" invocationCount="6" method="_9LnJCfVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyIM_VOEee8PuMtQHUdKg" minTime="42" maxTime="93" totalTime="199" invocationCount="3" method="_9LnJDPVOEee8PuMtQHUdKg"/>
+        <performanceStats uid="_9LyINPVOEee8PuMtQHUdKg" minTime="4" maxTime="11" totalTime="64" invocationCount="9" method="_9LnJDfVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE8vVOEee8PuMtQHUdKg" criticality="0.912" type="_9LradvVOEee8PuMtQHUdKg" state="STARTED" name="Last Second Sales Item Filter">
+      <monitoredProperties uid="_9LyvMPVOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.22"/>
+      <monitoredProperties uid="_9LzWQPVOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="57"/>
+      <parameters uid="_9LvE8_VOEee8PuMtQHUdKg" value="300" type="_9Lrad_VOEee8PuMtQHUdKg"/>
+      <requiredInterfaces uid="_9LvE9PVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr9fVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvE-PVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE9fVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr9PVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LyINfVOEee8PuMtQHUdKg" minTime="450" maxTime="760" totalTime="16800" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE9vVOEee8PuMtQHUdKg" criticality="0.4074" type="_9LraePVOEee8PuMtQHUdKg" state="STARTED" name="Past Sales Item Filter">
+      <monitoredProperties uid="_9LzWQvVOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.2"/>
+      <monitoredProperties uid="_9LzWQ_VOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="54"/>
+      <requiredInterfaces uid="_9LvE9_VOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr9vVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvE-_VOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE-PVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr9fVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWQfVOEee8PuMtQHUdKg" minTime="400" maxTime="740" totalTime="15090" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE-fVOEee8PuMtQHUdKg" criticality="0.8967" type="_9LraefVOEee8PuMtQHUdKg" state="STARTED" name="Buy Now Item Filter">
+      <monitoredProperties uid="_9LzWRfVOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.18"/>
+      <monitoredProperties uid="_9LzWRvVOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="57"/>
+      <requiredInterfaces uid="_9LvE-vVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr9_VOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvE_vVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE-_VOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr9vVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWRPVOEee8PuMtQHUdKg" minTime="340" maxTime="690" totalTime="13470" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE_PVOEee8PuMtQHUdKg" criticality="0.1914" type="_9LraevVOEee8PuMtQHUdKg" state="STARTED" name="Availability Item Filter">
+      <monitoredProperties uid="_9LzWSPVOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.17"/>
+      <monitoredProperties uid="_9LzWSfVOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="60"/>
+      <requiredInterfaces uid="_9LvE_fVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr-PVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvFAfVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvE_vVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr9_VOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWR_VOEee8PuMtQHUdKg" minTime="300" maxTime="620" totalTime="11760" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvE__VOEee8PuMtQHUdKg" criticality="0.7168" type="_9Lrae_VOEee8PuMtQHUdKg" state="STARTED" name="Region Item Filter">
+      <monitoredProperties uid="_9LzWS_VOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.15"/>
+      <monitoredProperties uid="_9LzWTPVOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="63"/>
+      <requiredInterfaces uid="_9LvFAPVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr-fVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvFBfVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvFAfVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr-PVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWSvVOEee8PuMtQHUdKg" minTime="240" maxTime="500" totalTime="9960" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvFAvVOEee8PuMtQHUdKg" criticality="0.4063" type="_9LrafPVOEee8PuMtQHUdKg" state="STARTED" name="Seller Reputation Item Filter">
+      <monitoredProperties uid="_9LzWTvVOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.12"/>
+      <monitoredProperties uid="_9LzWT_VOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="65"/>
+      <parameters uid="_9LvFA_VOEee8PuMtQHUdKg" value="5" type="_9LraffVOEee8PuMtQHUdKg"/>
+      <requiredInterfaces uid="_9LvFBPVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr-vVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvFCfVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvFBfVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr-fVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWTfVOEee8PuMtQHUdKg" minTime="190" maxTime="440" totalTime="8070" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvFBvVOEee8PuMtQHUdKg" criticality="0.3666" type="_9LrafvVOEee8PuMtQHUdKg" state="STARTED" name="Comment Item Filter">
+      <monitoredProperties uid="_9LzWUfVOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.1"/>
+      <monitoredProperties uid="_9LzWUvVOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="68"/>
+      <parameters uid="_9LvFB_VOEee8PuMtQHUdKg" value="5" type="_9Lraf_VOEee8PuMtQHUdKg"/>
+      <requiredInterfaces uid="_9LvFCPVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr-_VOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvFDfVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvFCfVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr-vVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWUPVOEee8PuMtQHUdKg" minTime="140" maxTime="390" totalTime="6120" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvFCvVOEee8PuMtQHUdKg" criticality="0.8347" type="_9LragPVOEee8PuMtQHUdKg" state="STARTED" name="Category Item Filter">
+      <monitoredProperties uid="_9LzWVPVOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.08"/>
+      <monitoredProperties uid="_9LzWVfVOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="69"/>
+      <parameters uid="_9LvFC_VOEee8PuMtQHUdKg" value="Coins,Jewelry" type="_9LragfVOEee8PuMtQHUdKg"/>
+      <requiredInterfaces uid="_9LvFDPVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr_PVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvFEPVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvFDfVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr-_VOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWU_VOEee8PuMtQHUdKg" minTime="95" maxTime="300" totalTime="4080" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvFDvVOEee8PuMtQHUdKg" criticality="0.2537" type="_9LragvVOEee8PuMtQHUdKg" state="STARTED" name="Recommendation Item Filter">
+      <monitoredProperties uid="_9LzWV_VOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.04"/>
+      <monitoredProperties uid="_9LzWWPVOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="37"/>
+      <requiredInterfaces uid="_9LvFD_VOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg">
+        <connector uid="_9Lvr_fVOEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter_to_de.hpi.sam.rubis.filter.ItemFilter" target="_9LvFFPVOEee8PuMtQHUdKg"/>
+      </requiredInterfaces>
+      <providedInterfaces uid="_9LvFEPVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr_PVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWVvVOEee8PuMtQHUdKg" minTime="45" maxTime="175" totalTime="2010" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+    <components uid="_9LvFEfVOEee8PuMtQHUdKg" criticality="0.2515" type="_9Lrag_VOEee8PuMtQHUdKg" state="STARTED" name="Future Sales Item Filter">
+      <monitoredProperties uid="_9LzWWvVOEee8PuMtQHUdKg" name="selection-rate" type="java.lang.Double" unit="*100%" description="The selection rate of this filter" value="0.03"/>
+      <monitoredProperties uid="_9LzWW_VOEee8PuMtQHUdKg" name="local-computation-time" type="java.lang.Long" unit="ms" description="The local computation time c of this filter" value="30"/>
+      <parameters uid="_9LvFEvVOEee8PuMtQHUdKg" value="14" type="_9LrahPVOEee8PuMtQHUdKg"/>
+      <requiredInterfaces uid="_9LvFE_VOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg"/>
+      <providedInterfaces uid="_9LvFFPVOEee8PuMtQHUdKg" type="_9Lksw_VOEee8PuMtQHUdKg" connectors="_9Lvr_fVOEee8PuMtQHUdKg">
+        <performanceStats uid="_9LzWWfVOEee8PuMtQHUdKg" minTime="15" maxTime="100" totalTime="900" invocationCount="30" method="_9LksxPVOEee8PuMtQHUdKg"/>
+      </providedInterfaces>
+    </components>
+  </tenants>
+  <annotations uid="_9Lz9UPVOEee8PuMtQHUdKg"/>
+</comparch:Architecture>
