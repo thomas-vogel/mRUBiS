@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: mRUBiS Extensions for the Simulator
+Bundle-SymbolicName: de.mdelab.simulator.mrubis
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Thomas Vogel
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: de.mdelab.simulator;bundle-version="1.0.0";visibility:=reexport
+Export-Package: de.mdelab.simulator.mrubis,
+ de.mdelab.simulator.mrubis.genmodel,
+ de.mdelab.simulator.mrubis.injectors,
+ de.mdelab.simulator.mrubis.utility,
+ de.mdelab.simulator.mrubis.validators
+Import-Package: org.eclipse.emf.ecore.xmi,
+ org.eclipse.emf.ecore.xmi.impl
+Bundle-ClassPath: lib/mRUBiS-contracts-20171219_213824.jar,
+ .
