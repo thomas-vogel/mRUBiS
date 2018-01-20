@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated comparch -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="de.mdelab.comparch.presentation.ComparchModelWizardID"
+            name="%_UI_ComparchModelWizard_label"
+            class="de.mdelab.comparch.presentation.ComparchModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ComparchModelFile.gif">
+         <description>%_UI_ComparchModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated comparch -->
+      <editor
+            id="de.mdelab.comparch.presentation.ComparchEditorID"
+            name="%_UI_ComparchEditor_label"
+            icon="icons/full/obj16/ComparchModelFile.gif"
+            extensions="comparch"
+            class="de.mdelab.comparch.presentation.ComparchEditor"
+            contributorClass="de.mdelab.comparch.presentation.ComparchActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
