@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/de.mdelab.comparch/src-gen" creationIcons="false"
+    editDirectory="/de.mdelab.comparch.edit/src-gen" editorDirectory="/de.mdelab.comparch.editor/src-gen"
+    modelPluginID="de.mdelab.comparch" modelName="Comparch" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>comparch.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Comparch" basePackage="de.mdelab" disposableProviderFactory="true"
+      ecorePackage="comparch.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="comparch.ecore#//ComponentState">
+      <genEnumLiterals ecoreEnumLiteral="comparch.ecore#//ComponentState/UNDEPLOYED"/>
+      <genEnumLiterals ecoreEnumLiteral="comparch.ecore#//ComponentState/DEPLOYED"/>
+      <genEnumLiterals ecoreEnumLiteral="comparch.ecore#//ComponentState/STARTED"/>
+      <genEnumLiterals ecoreEnumLiteral="comparch.ecore#//ComponentState/UNKNOWN"/>
+    </genEnums>
+    <genClasses ecoreClass="comparch.ecore#//Architecture">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Architecture/name"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Architecture/componentTypes"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Architecture/interfaceTypes"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Architecture/tenants"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Architecture/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//ArchitecturalElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//ArchitecturalElement/uid"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//ArchitecturalElement/criticality"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ArchitecturalElement/monitoredProperties"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ArchitecturalElement/issueImpacts"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ArchitecturalElement/strategyInputs"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ArchitecturalElement/workingDataElements"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//ComponentType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//ComponentType/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ComponentType/architecture"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ComponentType/requiredInterfaceTypes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ComponentType/providedInterfaceTypes"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ComponentType/parameterTypes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ComponentType/instances"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//ComponentType/reliability"/>
+      <genOperations ecoreOperation="comparch.ecore#//ComponentType/instantiate"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Component">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Component/tenant"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Component/type"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Component/parameters"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Component/state"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Component/requiredInterfaces"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Component/providedInterfaces"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Component/name"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//InterfaceType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//InterfaceType/fqName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//InterfaceType/architecture"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//InterfaceType/requiringComponentTypes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//InterfaceType/providingComponentTypes"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//InterfaceType/methodSpecifications"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//InterfaceType/instances"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//MethodSpecification">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//MethodSpecification/signature"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//MethodSpecification/interfaceType"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//MethodSpecification/exceptions"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//MethodSpecification/performanceStats"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//ParameterType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//ParameterType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//ParameterType/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//ParameterType/defaultValue"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ParameterType/componentType"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ParameterType/instances"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Tenant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Tenant/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Tenant/architecture"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Tenant/components"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Parameter">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Parameter/value"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Parameter/type"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Parameter/component"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Interface">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Interface/type"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//RequiredInterface">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//RequiredInterface/component"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//RequiredInterface/connector"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//ProvidedInterface">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ProvidedInterface/component"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ProvidedInterface/connectors"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ProvidedInterface/exceptions"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ProvidedInterface/performanceStats"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Connector">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Connector/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Connector/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Connector/target"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Exception">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Exception/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Exception/message"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute comparch.ecore#//Exception/stackTrace"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Exception/interface"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Exception/method"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//MonitoredProperty">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//MonitoredProperty/architecturalElement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//MonitoredProperty/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//MonitoredProperty/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//MonitoredProperty/unit"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute comparch.ecore#//MonitoredProperty/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//MonitoredProperty/value"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//MonitoredProperty/relatedArchitecturalElements"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Annotations">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Annotations/architecture"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Annotations/issues"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Annotations/adaptationStrategies"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Annotations/workingdata"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Annotations/uid"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Issue">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Issue/annotations"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Issue/impacts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Issue/utilityDrop"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Issue/assignedAdaptationStrategies"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//AdaptationStrategy">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//AdaptationStrategy/utilityIncrease"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//AdaptationStrategy/costs"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//AdaptationStrategy/annotations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//AdaptationStrategy/assignedIssues"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//AdaptationStrategy/inputParameters"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Annotation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Annotation/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Annotation/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//Annotation/uid"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute comparch.ecore#//Annotation/description"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//Impact">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Impact/issue"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//Impact/architecturalElement"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//InputParameter">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//InputParameter/adaptationStrategy"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//InputParameter/architecturalElement"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//WorkingData">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//WorkingData/unit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//WorkingData/value"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//WorkingData/annotations"/>
+      <genFeatures children="true" createChild="true" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//WorkingData/concernedElements"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//ConcernedElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ConcernedElement/workingdata"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//ConcernedElement/architecturalElement"/>
+    </genClasses>
+    <genClasses ecoreClass="comparch.ecore#//PerformanceStats">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//PerformanceStats/minTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//PerformanceStats/maxTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//PerformanceStats/totalTime"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute comparch.ecore#//PerformanceStats/invocationCount"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//PerformanceStats/interface"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference comparch.ecore#//PerformanceStats/method"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

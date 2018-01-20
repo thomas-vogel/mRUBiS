@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated comparch -->
+      <package
+            uri="http://www.mdelab.de/comparch"
+            class="de.mdelab.comparch.ComparchPackage"
+            genModel="model/comparch.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.factory_override">
+      <factory
+            class="de.mdelab.comparch.DefaultComparchFactoryImpl"
+            uri="http://www.mdelab.de/comparch">
+      </factory>
+   </extension>
+
+</plugin>
