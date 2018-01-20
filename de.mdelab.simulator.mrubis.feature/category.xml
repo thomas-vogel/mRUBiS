@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.mdelab.simulator.mrubis.feature_1.0.0.qualifier.jar" id="de.mdelab.simulator.mrubis.feature" version="1.0.0.qualifier">
+      <category name="mRUBiS_Simulator"/>
+   </feature>
+   <category-def name="mRUBiS_Simulator" label="mRUBiS Simulator"/>
+</site>
