@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="de.mdelab.simulator.mrubis.examples.category"
+            name="mRUBiS Examples"
+            parentCategory="org.eclipse.ui.Examples">
+      </category>
+      <wizard
+            canFinishEarly="true"
+            category="org.eclipse.ui.Examples/de.mdelab.simulator.mrubis.examples.category"
+            class="de.mdelab.simulator.mrubis.examples.SelfHealingExampleWizard"
+            hasPages="false"
+            id="de.mdelab.simulator.mrubis.examples.selfhealing"
+            name="mRUBiS Self-Healing Example"
+            project="true">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="de.mdelab.simulator.mrubis.examples.category"
+            name="mRUBiS Examples"
+            parentCategory="org.eclipse.ui.Examples">
+      </category>
+      <wizard
+            canFinishEarly="true"
+            category="org.eclipse.ui.Examples/de.mdelab.simulator.mrubis.examples.category"
+            class="de.mdelab.simulator.mrubis.examples.SelfOptimizationExampleWizard"
+            hasPages="false"
+            id="de.mdelab.simulator.mrubis.examples.selfoptimization"
+            name="mRUBiS Self-Optimization Example"
+            project="true">
+      </wizard>
+   </extension>
+
+</plugin>
