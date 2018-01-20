@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_AH6CMOGfEee-GNgMeNnRwQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_BsSmEOGfEee-GNgMeNnRwQ" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_ItdiwOGfEee-GNgMeNnRwQ" elementId="de.mdelab.simulator.mrubis.command.generatemodel" commandName="GenerateModel"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_NpILgOGfEee-GNgMeNnRwQ" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_Q0Hg0OGfEee-GNgMeNnRwQ" elementId="de.mdelab.simulator.mrubis.handler.modelgenerator" contributionURI="bundleclass://de.mdelab.simulator.mrubis.ui/de.mdelab.simulator.mrubis.handlers.GenerateModelHandler" command="_ItdiwOGfEee-GNgMeNnRwQ"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ivKxIOGfEee-GNgMeNnRwQ" featurename="menuContributions" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="menu:MenuContribution" xmi:id="_k4dY4OGfEee-GNgMeNnRwQ" elementId="de.mdelab.simulator.mrubis.menucontribution.0" positionInParent="after=additions" parentId="org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_sVNeUOGfEee-GNgMeNnRwQ" elementId="de.mdelab.simulator.mrubis.menu.mrubis" label="mRUBiS">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_uNP-AOGfEee-GNgMeNnRwQ" elementId="de.mdelab.simulator.mrubis.handledmenuitem.generatemodel" label="Generate Model" command="_ItdiwOGfEee-GNgMeNnRwQ"/>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
