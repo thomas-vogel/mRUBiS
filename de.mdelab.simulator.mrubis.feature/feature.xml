@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="de.mdelab.simulator.mrubis.feature"
-      label="mRUBiS Simulator Feature"
+      label="mRUBiS Exemplar"
       version="1.0.0.qualifier"
       provider-name="Thomas Vogel">
 
-   <description url="https://github.com/thomas-vogel/mRUBiS_Simulator">
-      mRUBiS Simulator
+   <description url="https://github.com/thomas-vogel/mRUBiS">
+      mRUBiS Exemplar
    </description>
 
-   <copyright url="https://github.com/thomas-vogel/mRUBiS_Simulator">
+   <copyright url="https://github.com/thomas-vogel/mRUBiS">
       Thomas Vogel
    </copyright>
 
-   <license url="https://github.com/thomas-vogel/mRUBiS_Simulator/blob/master/LICENSE">
+   <license url="https://github.com/thomas-vogel/mRUBiS/blob/master/LICENSE">
       Eclipse Public License - v 1.0
 
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC
@@ -218,6 +218,10 @@ Agreement will bring a legal action under this Agreement more than one year
 after the cause of action arose. Each party waives its rights to a jury trial in
 any resulting litigation.
    </license>
+
+   <url>
+      <update label="mRUBiS Exemplar -- Eclipse Update Site" url="https://github.com/thomas-vogel/mRUBiS/raw/master/update-site"/>
+   </url>
 
    <plugin
          id="de.mdelab.comparch.editor.graphical"
