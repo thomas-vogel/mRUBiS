@@ -272,4 +272,25 @@ any resulting litigation.
          version="0.0.0"
          unpack="false"/>
 
+   <plugin
+         id="de.mdelab.simulator.mrubis.examples"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.mdelab.simulator.mrubis.examples.selfhealing"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="de.mdelab.simulator.mrubis.examples.selfoptimization"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>
