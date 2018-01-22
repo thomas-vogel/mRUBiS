@@ -68,12 +68,12 @@ public class ECAFeedbackLoop {
 		Scenario scenario = new SelfHealingScenario(architecture, exceptionThreshold);
 
 		// parameters for the simulator
-		int runs = 4;
+		int rounds = 4;
 		long injectionDelayMS = 100;
 		boolean eventTrackingEnabled = true;
 		boolean logToConsole = true;
 		// get an instance of the simulator
-		Simulator simulator = Simulator.FACTORY.createSimulator(architecture, utilityFunction, scenario, runs,
+		Simulator simulator = Simulator.FACTORY.createSimulator(architecture, utilityFunction, scenario, rounds,
 				injectionDelayMS, eventTrackingEnabled, Level.CONFIG, logToConsole);
 		// add the validators for self-healing to the simulator
 		SelfHealingConfig.addValidators(simulator, exceptionThreshold, minPipeSize);
