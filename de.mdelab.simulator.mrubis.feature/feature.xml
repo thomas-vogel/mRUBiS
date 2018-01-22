@@ -220,7 +220,7 @@ any resulting litigation.
    </license>
 
    <url>
-      <update label="mRUBiS Exemplar -- Eclipse Update Site" url="https://github.com/thomas-vogel/mRUBiS/raw/master/update-site"/>
+      <update label="mRUBiS Exemplar -- Eclipse Update Site" url="https://thomas-vogel.github.io/mRUBiS"/>
    </url>
 
    <plugin
@@ -274,20 +274,6 @@ any resulting litigation.
 
    <plugin
          id="de.mdelab.simulator.mrubis.examples"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.mdelab.simulator.mrubis.examples.selfhealing"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="de.mdelab.simulator.mrubis.examples.selfoptimization"
          download-size="0"
          install-size="0"
          version="0.0.0"
