@@ -12,8 +12,8 @@ import de.mdelab.simulator.mrubis.MRubisModelQuery;
 
 /**
  * Validates the pipe of filter {@link Component}s in each {@link Tenant}
- * whether the pipe contains at least so many filter components as the given
- * threshold.
+ * architecture whether the pipe contains at least so many filter components as
+ * the given threshold.
  * 
  * An issue is raised for each pipe that contains less filters than the given
  * threshold.

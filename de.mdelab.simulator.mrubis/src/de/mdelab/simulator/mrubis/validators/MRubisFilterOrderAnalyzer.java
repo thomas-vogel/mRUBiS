@@ -11,14 +11,14 @@ import de.mdelab.simulator.Validator;
 import de.mdelab.simulator.mrubis.MRubisModelQuery;
 
 /**
- * Validates the ordering of filter components in each pipe of all
- * {@link Tenant}s. The ordering is determined by the individual slope of the
- * selection rate <code>c</code> and local computation time <code>c</code>
- * (i.e., <code>s/c</code>) of each filter of the pipe. A filter component with
- * a bigger slope is located before any other filter component with a smaller
- * slope in the pipe. Thus, the slopes of filter components decreases from the
- * front to the back of the pipe and they determine the ordering of the filter
- * components in the pipe..
+ * Validates for each {@link Tenant} architecture the ordering of filter
+ * {@link Component}s in the pipe. The ordering is determined by the individual
+ * slope of the selection rate <code>s</code> and local computation time
+ * <code>c</code> (i.e., <code>s/c</code>) of each filter of the pipe. A filter
+ * component with a bigger slope is located before any other filter component
+ * with a smaller slope in the pipe. Thus, the slopes of filter components
+ * decreases from the front to the back of the pipe and they determine the
+ * ordering of the filter components in the pipe.
  * 
  * An issue is raised for each filter component that is not well located in the
  * pipe with respect to its neighboring filter components.

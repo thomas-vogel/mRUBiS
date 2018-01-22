@@ -12,7 +12,8 @@ import de.mdelab.simulator.mrubis.MRubisModelQuery.Pipe;
 
 /**
  * Validates the pipe of filter {@link Component}s in each {@link Tenant}
- * whether the pipe contains any cycle among the components or not.
+ * architecture whether the pipe contains any cycle among the filter components
+ * or not.
  * 
  * An issue is raised if there is a cycle among the filter components of a pipe.
  * 

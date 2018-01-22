@@ -18,15 +18,15 @@ import de.mdelab.simulator.Validator;
 import de.mdelab.simulator.mrubis.MRubisNames;
 
 /**
- * Validates for the minimal configuration of each {@link Tenant}'s
- * sub-architecture in terms of provided service interfaces and the number of
- * components providing each interface within one tenant.
+ * Validates for the minimal configuration of each {@link Tenant} architecture
+ * in terms of provided interfaces and the number of components providing each
+ * interface within one tenant.
  * 
- * Each service interface, that is, {@link InterfaceType} should only be
- * provided as a {@link ProvidedInterface} by exactly one
- * {@link ComponentState#STARTED} {@link Component} within one {@link Tenant}.
- * Otherwise, more than one component providing the same functionality is
- * running and consuming resources.
+ * Each interface, that is, {@link InterfaceType} should only be provided as a
+ * {@link ProvidedInterface} by exactly one {@link ComponentState#STARTED}
+ * {@link Component} within one {@link Tenant}. Otherwise, more than one
+ * component providing the same functionality is running and consuming
+ * resources.
  * 
  * This holds for each service interface except of
  * {@link MRubisNames#itemFilterService_InterfaceType_FqName} as there is

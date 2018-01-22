@@ -11,12 +11,13 @@ import de.mdelab.simulator.mrubis.MRubisModelQuery;
 import de.mdelab.simulator.mrubis.MRubisNames;
 
 /**
- * Validates the average response time for the method
+ * Validates for each {@link Tenant} architecture the average response time for
+ * the personalized item search, that is, for the method
  * {@link MRubisNames#getPersonalizedItems_Signature} of the interface
- * {@link MRubisNames#browseCategoriesService_InterfaceType_FqName} for each
- * {@link Tenant} based on the corresponding {@link PerformanceStats} elements.
- * Ideally, the average response time should be around a response time goal and
- * between a lower and an upper boundary.
+ * {@link MRubisNames#browseCategoriesService_InterfaceType_FqName} based on the
+ * corresponding {@link PerformanceStats} elements. Ideally, the average
+ * response time should be around a response time goal and between a lower and
+ * an upper boundary.
  * 
  * An issue is raise either when the average response time is above the upper
  * boundary and the pipe contains more than one filter, or when the average

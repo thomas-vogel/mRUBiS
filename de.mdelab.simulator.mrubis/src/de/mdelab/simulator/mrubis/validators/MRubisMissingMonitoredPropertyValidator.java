@@ -15,15 +15,15 @@ import de.mdelab.simulator.mrubis.MRubisNames;
 
 /**
  * Validates the model after a self-adaptation to check whether all filter
- * components have a {@link MonitoredProperty} for the selection rate and a
- * {@link MonitoredProperty} for the local computation time. In the case these
- * properties are missing for a filter, this validators creates and adds them to
- * the filter.
+ * {@link Component}s have a {@link MonitoredProperty} for the selection rate
+ * and a {@link MonitoredProperty} for the local computation time. In the case
+ * that these properties are missing for a filter component, this validator
+ * creates and adds them to the filter.
  * 
  * For instance, if a filter component has been removed, and a new filter
  * component of the same type has been deployed, this new filter component has
- * no {@link MonitoredProperty} elements. In this case, this validators adds the
- * properties.
+ * no {@link MonitoredProperty} elements. In this case, this validator adds
+ * these property elements.
  * 
  * Using a real system, the monitored properties are added to the model by
  * monitoring the running system and updating the model.

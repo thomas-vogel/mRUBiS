@@ -20,9 +20,9 @@ import de.mdelab.simulator.mrubis.MRubisModelQuery;
 import de.mdelab.simulator.mrubis.MRubisNames;
 
 /**
- * Validates a self-adaptation of a pipe of filter components and reacts to the
- * self-adaptation by changing the performance stats in the model as if the
- * self-adaptation impacts the performance of the managed system.
+ * Validates a self-adaptation of a pipe of filter {@link Component}s and reacts
+ * to the self-adaptation by changing the performance stats in the model as if
+ * the self-adaptation impacts the performance of the managed system.
  * 
  * For instance, if filters are added to the pipe, the response time increases;
  * if filters are removed from the pipe, the response time decreases; if a

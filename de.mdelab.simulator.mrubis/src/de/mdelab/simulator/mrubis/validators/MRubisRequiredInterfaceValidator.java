@@ -15,11 +15,11 @@ import de.mdelab.simulator.Validator;
 import de.mdelab.simulator.mrubis.MRubisNames;
 
 /**
- * Validates whether each {@link RequiredInterface} is connected to a
- * {@link ProvidedInterface} of a {@link ComponentState#STARTED}
- * {@link Component} within the same {@link Tenant} and whether the connected
- * {@link RequiredInterface} and {@link ProvidedInterface} are of the same
- * {@link InterfaceType}.
+ * Validates for each {@link Tenant} architecture whether each
+ * {@link RequiredInterface} is connected to a {@link ProvidedInterface} of a
+ * {@link ComponentState#STARTED} {@link Component} within the same
+ * {@link Tenant} and whether the connected {@link RequiredInterface} and
+ * {@link ProvidedInterface} are of the same {@link InterfaceType}.
  * 
  * It further takes into account that in each tenant one required interface is
  * not connected by design; this interface belongs to the last filter in the

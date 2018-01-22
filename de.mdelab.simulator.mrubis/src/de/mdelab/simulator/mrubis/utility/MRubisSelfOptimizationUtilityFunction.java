@@ -15,27 +15,28 @@ import de.mdelab.simulator.mrubis.MRubisModelQuery;
  * 
  * The utility of mRUBiS is computed in the same way as for the self-healing.
  * Therefore, see {@link MRubisSelfHealingUtilityFunction}. Thus, the utility is
- * higher the more filter components are deployed in each tenant (i.e., longer
- * pipes of filter components have a higher utility than shorter pipes). This
- * utility is decreased by this utility function if there is are performance
- * issues in the model:
+ * higher the more filter components are deployed and running in each tenant
+ * (i.e., longer pipes of filter components have a higher utility than shorter
+ * pipes). This utility is decreased by this utility function if there are
+ * performance issues (PIs) in the model:
  * 
  * <ul>
  * <li>For each filter component that is not at its optimal position in the pipe
- * of filters (PI1), the utility is decreased by the half of the utility of this
- * filter component. The utility of each component is computed according to the
- * {@link MRubisSelfHealingUtilityFunction}.</li>
+ * of filters (PI1), the overall utility is decreased by the half of the utility
+ * of this filter component. The utility of each component is computed according
+ * to the {@link MRubisSelfHealingUtilityFunction}.</li>
  * <li>For each tenant in which the average response time of the personalized
- * search is above a given threshold (PI2), the utility of the tenant is reduced
- * by 20\%.</li>
- * <li>If there is a PI3, that is, the average execution time of the
- * personalized search is below the lower threshold in a tenant, the overall
- * utility is not reduced since the performance is better than desired. However,
- * there might be potential for improving the utility by adding filter
- * components to the tenant if the pipe does not already have the maximum size
- * (maximum size means that all available filter types are instantiated and
- * used). Adding filters increases the response time of the personalized search,
- * which might resolve a PI3.</li>
+ * search is above a given threshold (PI2), the overall utility of the tenant is
+ * reduced by 20\%.</li>
+ * <li>If there is a PI3, that is, the average response time of the personalized
+ * search is below the lower threshold in a tenant, the overall utility is not
+ * reduced since the performance is better than desired. However, there might be
+ * potential for improving the utility by adding filter components to the tenant
+ * if the pipe does not already have the maximum size (maximum size means that
+ * all available filter types are instantiated and used). Adding filters
+ * increases the response time of the personalized search, which might resolve a
+ * PI3, and increases the overall utility to the amount of the utilities enabled
+ * by the added filters.</li>
  * </ul>
  * 
  * 
