@@ -11,9 +11,10 @@ import de.mdelab.simulator.SimulatorUtil;
 import de.mdelab.simulator.Validator;
 
 /**
- * Validates whether each {@link Parameter} of a {@link ComponentState#STARTED}
- * {@link Component} has a value assigned (see {@link Parameter#getValue()}). An
- * issue is raised if such a parameter has no value assigned.
+ * Validates for each {@link Tenant} architecture whether each {@link Parameter}
+ * of a {@link ComponentState#STARTED} {@link Component} has a value assigned
+ * (see {@link Parameter#getValue()}). An issue is raised if such a parameter
+ * has no value assigned.
  * 
  * @author thomas vogel
  * @version 0.41

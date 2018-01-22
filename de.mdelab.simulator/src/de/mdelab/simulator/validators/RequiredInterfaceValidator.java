@@ -13,12 +13,13 @@ import de.mdelab.simulator.SimulatorUtil;
 import de.mdelab.simulator.Validator;
 
 /**
- * Validates whether each {@link RequiredInterface} is connected to a
- * {@link ProvidedInterface} of a {@link ComponentState#STARTED}
- * {@link Component} within the same {@link Tenant}.
+ * Validates for each {@link Tenant} architecture whether each
+ * {@link RequiredInterface} is connected to a {@link ProvidedInterface} of a
+ * {@link ComponentState#STARTED} {@link Component} within the same
+ * {@link Tenant}.
  * 
  * An issue is raised for each required interface that is not connected or that
- * is connected to component of another tenant.
+ * is connected to a component of another tenant.
  * 
  * @author thomas vogel
  * @version 0.41

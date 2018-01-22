@@ -15,8 +15,8 @@ import de.mdelab.simulator.SimulatorUtil;
 import de.mdelab.simulator.Validator;
 
 /**
- * Validates for a minimal configuration of each {@link Tenant}'s architecture.
- * A minimal configuration is one where each {@link ComponentType} is only
+ * Validates for a minimal configuration of each {@link Tenant} architecture. A
+ * minimal configuration is one where each {@link ComponentType} is only
  * instantiated at most once per {@link Tenant}, that is, there are no two
  * {@link ComponentState#STARTED} {@link Component}s of the same
  * {@link ComponentType} in one {@link Tenant}.

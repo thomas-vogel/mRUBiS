@@ -13,11 +13,11 @@ import de.mdelab.simulator.SimulatorUtil;
 import de.mdelab.simulator.Validator;
 
 /**
- * Validates each {@link Tenant} whether its {@link ComponentState#STARTED}
- * {@link Component}s provide together all given interfaces such that the tenant
- * actually provides the necessary functionality to be operable. An issue is
- * raised for each of the given interfaces that are not provided by a started
- * component in each tenant.
+ * Validates each {@link Tenant} architecture whether its
+ * {@link ComponentState#STARTED} {@link Component}s provide together all given
+ * interfaces such that the tenant actually provides the necessary functionality
+ * to be operable. An issue is raised for each of the given interfaces that are
+ * not provided by a started component in each tenant.
  * 
  * @author thomas vogel
  * @version 0.41

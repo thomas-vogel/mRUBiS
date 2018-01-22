@@ -12,8 +12,9 @@ import de.mdelab.simulator.SimulatorUtil;
 import de.mdelab.simulator.Validator;
 
 /**
- * Retrieves all {@link Component}s ordered by their states (see
- * {@link Component#getState()} and grouped by their {@link Tenant}s.
+ * Retrieves all {@link Component}s of all {@link Tenant} architectures ordered
+ * by their states (see {@link Component#getState()} and grouped by their
+ * {@link Tenant}s.
  * 
  * The validation particularly checks for components in state
  * {@link ComponentState#UNKNOWN}, which indicates that something is wrong with

@@ -12,9 +12,10 @@ import de.mdelab.simulator.SimulatorUtil;
 import de.mdelab.simulator.Validator;
 
 /**
- * Validates if and how many {@link Exception}s are thrown by
- * {@link ProvidedInterface}s. It becomes an issue if the number of exceptions
- * thrown by one provided interface exceeds the given threshold.
+ * Validates for each {@link Tenant} architecture if and how many
+ * {@link Exception}s are thrown by {@link ProvidedInterface}s. It becomes an
+ * issue if the number of exceptions thrown by one provided interface exceeds
+ * the given threshold.
  * 
  * @author thomas vogel
  * @version 0.41
