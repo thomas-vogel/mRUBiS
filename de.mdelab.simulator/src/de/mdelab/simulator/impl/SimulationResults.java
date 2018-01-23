@@ -24,7 +24,7 @@ public abstract class SimulationResults<T extends SimulationResultsEntry> {
 	/**
 	 * Separator of the CSV file.
 	 */
-	protected static String CSV_SEP = "\t";
+	protected static String CSV_SEP = ";";
 	/**
 	 * New line character for the CSV file.
 	 */
