@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="mRUBiS Exemplar -- Eclipse Update Site" url="https://thomas-vogel.github.io/mRUBiS">
+      mRUBiS Exemplar -- Eclipse Update Site.
+   </description>
+   <feature url="features/de.mdelab.simulator.mrubis.feature_1.0.0.201801221927.jar" id="de.mdelab.simulator.mrubis.feature" version="1.0.0.201801221927">
+      <category name="mRUBiS-Exemplar"/>
+   </feature>
+   <category-def name="mRUBiS-Exemplar" label="mRUBiS Exemplar"/>
+</site>
