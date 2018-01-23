@@ -23,5 +23,7 @@ mRUBiS has been developed as an Eclipse plug-in. Use the [Eclipse Oxygen.2 (4.7.
 
 [`https://thomas-vogel.github.io/mRUBiS/`](https://thomas-vogel.github.io/mRUBiS/)
 
+mRUBiS has been developed and tested on Ubuntu 16.04, only basic tests have been made with Windows.
+
 ## More information about mRUBiS
 A detailed description of the mRUBiS exemplar, the CompArch language, modeling editor, and the use of the exemplar can be found in the [Wiki](https://github.com/thomas-vogel/mRUBiS/wiki).
