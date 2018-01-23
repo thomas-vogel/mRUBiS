@@ -40,7 +40,8 @@ public class UtilityResults extends SimulationResults<UtilityEntry> {
 	 */
 	@Override
 	public void saveResults(Date timestamp) {
-		String filename = LogUtil.getResultsFolder() + "Utility__" + timestamp.toString();
+		String time = timestamp.toString().replaceAll(":", "-");
+		String filename = LogUtil.RESULTS_FOLDER + "Utility__" + time;
 
 		// Create Chart
 		XYChart chart = new XYChartBuilder().width(1024).height(768).title("Utility of the Managed System")
