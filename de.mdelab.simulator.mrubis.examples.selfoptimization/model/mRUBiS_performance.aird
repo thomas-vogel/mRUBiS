@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comparch="http://www.mdelab.de/comparch" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
-  <viewpoint:DAnalysis xmi:id="_MVw_APVPEee8PuMtQHUdKg" selectedViews="_Mzzl4PVPEee8PuMtQHUdKg" version="12.0.0.201704271200">
+  <viewpoint:DAnalysis xmi:id="_MVw_APVPEee8PuMtQHUdKg" selectedViews="_Mzzl4PVPEee8PuMtQHUdKg" version="12.1.0.201708031200">
     <semanticResources>mRUBiS_performance.comparch</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_Mzzl4PVPEee8PuMtQHUdKg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_M3nH0PVPEee8PuMtQHUdKg" name="OverviewDiagram" repPath="#_M3fzEPVPEee8PuMtQHUdKg">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_M3nH0PVPEee8PuMtQHUdKg" name="OverviewDiagram" repPath="#_IsPAIgBeEeiIW6p4W5tIRw">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']"/>
         <target xmi:type="comparch:Architecture" href="mRUBiS_performance.comparch#_9LhCYPVOEee8PuMtQHUdKg"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_OnZDYPVPEee8PuMtQHUdKg" name="mRUBiS Tenant #1 Architecture" repPath="#_OnLoAPVPEee8PuMtQHUdKg">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_OnZDYPVPEee8PuMtQHUdKg" name="mRUBiS Tenant #1 Architecture" repPath="#_IsrsEwBeEeiIW6p4W5tIRw">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']"/>
         <target xmi:type="comparch:Tenant" href="mRUBiS_performance.comparch#_9LsBgPVOEee8PuMtQHUdKg"/>
       </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_L2eukABeEeiIW6p4W5tIRw" name="User Management Service Component Type" repPath="#_L2GUEABeEeiIW6p4W5tIRw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']"/>
+        <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lo-MPVOEee8PuMtQHUdKg"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_U63gMABeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.authservice.AuthenticationService Interface Type" repPath="#_U6ynsABeEeiIW6p4W5tIRw">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']"/>
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LhpcPVOEee8PuMtQHUdKg"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram xmi:id="_M3fzEPVPEee8PuMtQHUdKg" name="OverviewDiagram">
+  <diagram:DSemanticDiagram xmi:id="_M3fzEPVPEee8PuMtQHUdKg" name="OverviewDiagram" uid="_IsPAIgBeEeiIW6p4W5tIRw">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_M3fzEfVPEee8PuMtQHUdKg" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_M3gaIPVPEee8PuMtQHUdKg"/>
     </ownedAnnotationEntries>
@@ -221,7 +229,7 @@
       <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_M3gaJPVPEee8PuMtQHUdKg" name="Component Types">
         <target xmi:type="comparch:Architecture" href="mRUBiS_performance.comparch#_9LhCYPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:Architecture" href="mRUBiS_performance.comparch#_9LhCYPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_M3gaJfVPEee8PuMtQHUdKg" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Components_Icon.svg" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_M3gaJfVPEee8PuMtQHUdKg" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Components_Icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <labelFormat>bold</labelFormat>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@style"/>
         </ownedStyle>
@@ -229,7 +237,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaJvVPEee8PuMtQHUdKg" name="User Management Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lo-MPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lo-MPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaJ_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaJ_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -237,7 +245,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaKPVPEee8PuMtQHUdKg" name="Item Management Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LqzYfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LqzYfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaKfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaKfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -245,7 +253,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaKvVPEee8PuMtQHUdKg" name="Authentication Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LracPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LracPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaK_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaK_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -253,7 +261,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaLPVPEee8PuMtQHUdKg" name="Bid and Buy Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LracfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LracfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaLfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaLfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -261,7 +269,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaLvVPEee8PuMtQHUdKg" name="Inventory Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LracvVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LracvVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaL_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaL_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -269,7 +277,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaMPVPEee8PuMtQHUdKg" name="Reputation Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lrac_VOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lrac_VOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaMfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaMfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -277,7 +285,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaMvVPEee8PuMtQHUdKg" name="Persistence Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LradPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LradPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaM_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaM_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -285,7 +293,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaNPVPEee8PuMtQHUdKg" name="Query Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LradfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LradfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaNfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaNfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -293,7 +301,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaNvVPEee8PuMtQHUdKg" name="Last Second Sales Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LradvVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LradvVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaN_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaN_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -301,7 +309,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaOPVPEee8PuMtQHUdKg" name="Past Sales Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LraePVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LraePVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaOfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaOfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -309,7 +317,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaOvVPEee8PuMtQHUdKg" name="Buy Now Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LraefVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LraefVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaO_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaO_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -317,7 +325,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaPPVPEee8PuMtQHUdKg" name="Availability Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LraevVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LraevVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaPfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaPfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -325,7 +333,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaPvVPEee8PuMtQHUdKg" name="Region Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lrae_VOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lrae_VOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaP_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaP_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -333,7 +341,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaQPVPEee8PuMtQHUdKg" name="Seller Reputation Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LrafPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LrafPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaQfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaQfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -341,7 +349,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaQvVPEee8PuMtQHUdKg" name="Comment Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LrafvVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LrafvVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaQ_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaQ_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -349,7 +357,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaRPVPEee8PuMtQHUdKg" name="Category Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LragPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LragPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaRfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaRfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -357,7 +365,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaRvVPEee8PuMtQHUdKg" name="Recommendation Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LragvVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LragvVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaR_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaR_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -365,7 +373,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaSPVPEee8PuMtQHUdKg" name="Future Sales Item Filter">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lrag_VOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lrag_VOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaSfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaSfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -373,7 +381,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaSvVPEee8PuMtQHUdKg" name="Facebook Authentication Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LrahfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LrahfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaS_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaS_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -381,7 +389,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaTPVPEee8PuMtQHUdKg" name="Google Authentication Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LraifVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LraifVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaTfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaTfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -389,7 +397,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaTvVPEee8PuMtQHUdKg" name="Twitter Authentication Service">
           <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LrajfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9LrajfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaT_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaT_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Component_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='ComponentTypesContainer']/@subNodeMappings[name='ComponentTypeNode']"/>
@@ -398,7 +406,7 @@
       <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_M3gaUPVPEee8PuMtQHUdKg" name="Interface Types">
         <target xmi:type="comparch:Architecture" href="mRUBiS_performance.comparch#_9LhCYPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:Architecture" href="mRUBiS_performance.comparch#_9LhCYPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_M3gaUfVPEee8PuMtQHUdKg" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interfaces_Icon.svg" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,255,255">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_M3gaUfVPEee8PuMtQHUdKg" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interfaces_Icon.png" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,255,255">
           <labelFormat>bold</labelFormat>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@style"/>
         </ownedStyle>
@@ -406,7 +414,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaUvVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.authservice.AuthenticationService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LhpcPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LhpcPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaU_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaU_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -414,7 +422,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaVPVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.bidandbuy.BidService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LkFsPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LkFsPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaVfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaVfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -422,7 +430,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaVvVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.bidandbuy.BuyNowService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LkswPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LkswPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaV_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaV_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -430,7 +438,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaWPVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.filter.ItemFilter">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Lksw_VOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Lksw_VOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaWfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaWfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -438,7 +446,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaWvVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.inventorymgmt.InventoryService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LksxfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LksxfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaW_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaW_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -446,7 +454,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaXPVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.itemmgmt.BrowseCategoriesService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LlT1PVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LlT1PVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaXfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaXfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -454,7 +462,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaXvVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.itemmgmt.ItemRegistrationService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LlT2vVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LlT2vVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaX_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaX_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -462,7 +470,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaYPVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Ll64fVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Ll64fVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaYfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaYfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -470,7 +478,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaYvVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.QueryService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Lmh9_VOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Lmh9_VOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaY_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaY_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -478,7 +486,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaZPVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.queryservice.BasicQueryService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJEfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJEfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaZfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaZfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -486,7 +494,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaZvVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.reputationservice.ReputationService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJIvVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJIvVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaZ_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaZ_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -494,7 +502,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaaPVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.usermgmt.AboutMeService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJJPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJJPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaafVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaafVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -502,7 +510,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gaavVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.usermgmt.BrowseRegionsService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwEfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwEfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaa_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gaa_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -510,7 +518,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gabPVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.usermgmt.UserRegistrationService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwE_VOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwE_VOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gabfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gabfVPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -518,7 +526,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gabvVPEee8PuMtQHUdKg" name="de.hpi.sam.rubis.usermgmt.ViewUserInfoService">
           <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwFfVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwFfVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gab_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gab_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='InterfaceTypesContainer']/@subNodeMappings[name='InterfaceTypeNode']"/>
@@ -527,7 +535,7 @@
       <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_M3gacPVPEee8PuMtQHUdKg" name="Tenants">
         <target xmi:type="comparch:Architecture" href="mRUBiS_performance.comparch#_9LhCYPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:Architecture" href="mRUBiS_performance.comparch#_9LhCYPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_M3gacfVPEee8PuMtQHUdKg" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenants_Icon.svg" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_M3gacfVPEee8PuMtQHUdKg" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenants_Icon.png" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
           <labelFormat>bold</labelFormat>
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='TenantsContainer']/@style"/>
         </ownedStyle>
@@ -535,7 +543,7 @@
         <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_M3gacvVPEee8PuMtQHUdKg" name="mRUBiS Tenant #1">
           <target xmi:type="comparch:Tenant" href="mRUBiS_performance.comparch#_9LsBgPVOEee8PuMtQHUdKg"/>
           <semanticElements xmi:type="comparch:Tenant" href="mRUBiS_performance.comparch#_9LsBgPVOEee8PuMtQHUdKg"/>
-          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gac_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenant_Icon.svg" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_M3gac_VPEee8PuMtQHUdKg" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenant_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
             <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='TenantsContainer']/@subNodeMappings[name='TenantNode']/@style"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer/@containerMappings[name='OverviewContainer']/@subContainerMappings[name='TenantsContainer']/@subNodeMappings[name='TenantNode']"/>
@@ -547,7 +555,7 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='OverviewDiagram']/@defaultLayer"/>
     <target xmi:type="comparch:Architecture" href="mRUBiS_performance.comparch#_9LhCYPVOEee8PuMtQHUdKg"/>
   </diagram:DSemanticDiagram>
-  <diagram:DSemanticDiagram xmi:id="_OnLoAPVPEee8PuMtQHUdKg" name="mRUBiS Tenant #1 Architecture">
+  <diagram:DSemanticDiagram xmi:id="_OnLoAPVPEee8PuMtQHUdKg" name="mRUBiS Tenant #1 Architecture" uid="_IsrsEwBeEeiIW6p4W5tIRw">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_OnLoAfVPEee8PuMtQHUdKg" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_OnLoAvVPEee8PuMtQHUdKg"/>
     </ownedAnnotationEntries>
@@ -2512,7 +2520,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oqn9lfVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oqn9lvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqn9l_VPEee8PuMtQHUdKg" points="[73, 2, -330, -16]$[393, 15, -10, -3]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqn9l_VPEee8PuMtQHUdKg" points="[11, 1, -465, -42]$[466, 42, -10, -1]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqokpvVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oqokp_VPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2592,7 +2600,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oqrn9fVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oqrn9vVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqrn9_VPEee8PuMtQHUdKg" points="[13, 24, -33, -82]$[41, 96, -5, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqrn9_VPEee8PuMtQHUdKg" points="[0, 1, -119, -130]$[109, 121, -10, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqsPBPVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqsPBfVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2624,7 +2632,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oqs2GfVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oqs2GvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqs2G_VPEee8PuMtQHUdKg" points="[73, 16, -78, -18]$[141, 31, -10, -3]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqs2G_VPEee8PuMtQHUdKg" points="[3, 1, -221, -58]$[214, 56, -10, -3]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqtdJvVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OquEMPVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2688,7 +2696,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oqv5Y_VPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oqv5ZPVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqv5ZfVPEee8PuMtQHUdKg" points="[73, 28, -132, -52]$[195, 77, -10, -3]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqv5ZfVPEee8PuMtQHUdKg" points="[1, 1, -277, -198]$[268, 191, -10, -8]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqwgdPVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqwgdfVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2704,7 +2712,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oqwgd_VPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OqwgePVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqwgefVPEee8PuMtQHUdKg" points="[82, 39, -195, -93]$[267, 128, -10, -4]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqwgefVPEee8PuMtQHUdKg" points="[1, 1, -358, -198]$[349, 193, -10, -6]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqxHhvVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqxHh_VPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2720,7 +2728,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_OqxHifVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OqxHivVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqxHi_VPEee8PuMtQHUdKg" points="[-10, 24, 9, -46]$[-23, 60, -4, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqxHi_VPEee8PuMtQHUdKg" points="[0, 1, -54, -94]$[48, 85, -6, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqxulvVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oqxul_VPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2736,7 +2744,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_OqxumfVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OqxumvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqxum_VPEee8PuMtQHUdKg" points="[7, 24, -10, -46]$[14, 60, -3, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oqxum_VPEee8PuMtQHUdKg" points="[0, 1, -90, -94]$[80, 85, -10, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqyVpvVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OqyVp_VPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2752,7 +2760,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_OqyVqfVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OqyVqvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqyVq_VPEee8PuMtQHUdKg" points="[12, 24, -17, -58]$[26, 72, -3, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqyVq_VPEee8PuMtQHUdKg" points="[0, 1, -102, -106]$[92, 97, -10, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oqy8tvVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oqy8t_VPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2768,7 +2776,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_OqzjwPVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_OqzjwfVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqzjwvVPEee8PuMtQHUdKg" points="[9, 24, -14, -46]$[19, 60, -4, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OqzjwvVPEee8PuMtQHUdKg" points="[1, 1, -95, -94]$[85, 85, -11, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq0K0PVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq0K0fVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2784,7 +2792,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq0K0_VPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq0K1PVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq0K1fVPEee8PuMtQHUdKg" points="[10, 24, 0, -46]$[10, 60, 0, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq0K1fVPEee8PuMtQHUdKg" points="[0, 1, -83, -94]$[74, 85, -9, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq2AAPVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq2AAfVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2800,7 +2808,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq2AA_VPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq2ABPVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq2ABfVPEee8PuMtQHUdKg" points="[5, 24, -5, -46]$[14, 60, 4, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq2ABfVPEee8PuMtQHUdKg" points="[0, 1, -83, -94]$[74, 85, -9, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq2nEPVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq2nEfVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2848,7 +2856,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq4cQ_VPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq4cRPVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq4cRfVPEee8PuMtQHUdKg" points="[3, 0, 0, -106]$[3, 96, 0, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq4cRfVPEee8PuMtQHUdKg" points="[1, 2, -53, -153]$[50, 145, -4, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq5DUvVPEee8PuMtQHUdKg" id="(0.3448275862068966,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq5DU_VPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2864,7 +2872,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq5DVfVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq5DVvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq5DV_VPEee8PuMtQHUdKg" points="[0, 24, -5, -109]$[5, 123, 0, -10]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq5DV_VPEee8PuMtQHUdKg" points="[1, 2, -77, -156]$[73, 148, -5, -10]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq5qZPVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq5qZfVPEee8PuMtQHUdKg" id="(0.5,0.5)"/>
         </edges>
@@ -2880,7 +2888,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq5qZ_VPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq5qaPVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq5qafVPEee8PuMtQHUdKg" points="[-20, 51, 56, -143]$[-76, 194, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq5qafVPEee8PuMtQHUdKg" points="[0, 40, -4, -154]$[4, 194, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq6RdvVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq6Rd_VPEee8PuMtQHUdKg" id="(0.5,1.0)"/>
         </edges>
@@ -2896,7 +2904,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq6RefVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq6RevVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq6Re_VPEee8PuMtQHUdKg" points="[-17, 51, 42, -143]$[-41, 132, 18, -62]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq6Re_VPEee8PuMtQHUdKg" points="[1, 9, -20, -185]$[21, 194, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq64hvVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq64h_VPEee8PuMtQHUdKg" id="(0.5,1.0)"/>
         </edges>
@@ -2912,7 +2920,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq64ifVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq64ivVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq64i_VPEee8PuMtQHUdKg" points="[0, 51, 0, -143]$[0, 194, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq64i_VPEee8PuMtQHUdKg" points="[1, 2, -79, -192]$[80, 194, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq7flvVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq7fl_VPEee8PuMtQHUdKg" id="(0.5,1.0)"/>
         </edges>
@@ -2928,7 +2936,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq7fmfVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq7fmvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq7fm_VPEee8PuMtQHUdKg" points="[-11, 51, 9, -143]$[-27, 132, -7, -62]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq7fm_VPEee8PuMtQHUdKg" points="[1, 3, -59, -191]$[60, 194, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq8GpvVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq8Gp_VPEee8PuMtQHUdKg" id="(0.5,1.0)"/>
         </edges>
@@ -2944,7 +2952,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq8GqfVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq8GqvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq8Gq_VPEee8PuMtQHUdKg" points="[-23, 51, 35, -143]$[-58, 132, 0, -62]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq8Gq_VPEee8PuMtQHUdKg" points="[1, 8, -21, -186]$[22, 194, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq8ttvVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq8tt_VPEee8PuMtQHUdKg" id="(0.5,1.0)"/>
         </edges>
@@ -2960,7 +2968,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq8tufVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq8tuvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq8tu_VPEee8PuMtQHUdKg" points="[-22, 51, 49, -157]$[-48, 132, 23, -76]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq8tu_VPEee8PuMtQHUdKg" points="[1, 23, -8, -185]$[9, 208, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq9UxvVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq9Ux_VPEee8PuMtQHUdKg" id="(0.5,1.0)"/>
         </edges>
@@ -2976,7 +2984,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq9UyfVPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq9UyvVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq9Uy_VPEee8PuMtQHUdKg" points="[-26, 51, -32, -77]$[-33, 66, -39, -62]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq9Uy_VPEee8PuMtQHUdKg" points="[1, 1, -85, -127]$[86, 128, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq_J8PVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq_J8fVPEee8PuMtQHUdKg" id="(0.5,1.0)"/>
         </edges>
@@ -2992,7 +3000,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq_J8_VPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq_J9PVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq_J9fVPEee8PuMtQHUdKg" points="[1, 51, -1, -24]$[2, 72, 0, -3]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq_J9fVPEee8PuMtQHUdKg" points="[1, 0, -81, -75]$[78, 72, -4, -3]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq_xAPVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oq_xAfVPEee8PuMtQHUdKg" id="(0.9,0.04838709677419355)"/>
         </edges>
@@ -3008,7 +3016,7 @@
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_Oq_xA_VPEee8PuMtQHUdKg"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_Oq_xBPVPEee8PuMtQHUdKg" fontName="Ubuntu" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq_xBfVPEee8PuMtQHUdKg" points="[4, 51, 22, -83]$[7, 72, 25, -62]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oq_xBfVPEee8PuMtQHUdKg" points="[1, 2, -61, -132]$[62, 134, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OrAYFvVPEee8PuMtQHUdKg" id="(0.5031847133757962,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OrAYF_VPEee8PuMtQHUdKg" id="(0.5,1.0)"/>
         </edges>
@@ -3914,7 +3922,7 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:Square" xmi:id="_OnMPW_VPEee8PuMtQHUdKg" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenant_Icon.svg" borderSize="-1" borderSizeComputationExpression="-1" labelPosition="node" width="15" height="5" color="255,255,255">
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_OnMPW_VPEee8PuMtQHUdKg" labelSize="12" iconPath="/de.mdelab.comparch.editor.graphical/icons/Tenant_Icon.png" borderSize="-1" borderSizeComputationExpression="-1" labelPosition="node" width="15" height="5" color="255,255,255">
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:SquareDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@nodeMappings[name='Tenant']/@style"/>
       </ownedStyle>
@@ -4214,7 +4222,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPmvVPEee8PuMtQHUdKg" name="getAboutMe">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhEPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhEPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPm_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPm_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4234,7 +4242,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPnvVPEee8PuMtQHUdKg" name="getAllRegions">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhEvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhEvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPn_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPn_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4254,7 +4262,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPovVPEee8PuMtQHUdKg" name="registerUser">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhE_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhE_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPo_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPo_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4274,7 +4282,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPpvVPEee8PuMtQHUdKg" name="getUserInfo">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhEfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhEfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPp_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPp_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4294,7 +4302,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPqvVPEee8PuMtQHUdKg" name="getAllCategories">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhFfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhFfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPq_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPq_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4302,7 +4310,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPrPVPEee8PuMtQHUdKg" name="getItemsByName">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhFvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhFvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPrfVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPrfVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4310,7 +4318,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPrvVPEee8PuMtQHUdKg" name="getPersonalizedItems">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhF_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhF_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPr_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPr_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4330,7 +4338,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPsvVPEee8PuMtQHUdKg" name="registerItem">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhFPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhFPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPs_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPs_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4350,7 +4358,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPtvVPEee8PuMtQHUdKg" name="authenticate">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhGPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhGPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPt_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPt_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4370,7 +4378,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPuvVPEee8PuMtQHUdKg" name="bidOnItem">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhGfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhGfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPu_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPu_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4378,7 +4386,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPvPVPEee8PuMtQHUdKg" name="getItemBidHistorySortyByBidPrice">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhGvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhGvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPvfVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPvfVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4398,7 +4406,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPwPVPEee8PuMtQHUdKg" name="buyItemNow">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhG_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhG_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPwfVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPwfVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4418,7 +4426,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPxPVPEee8PuMtQHUdKg" name="checkAvailabilityOfItem">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhHPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhHPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPxfVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPxfVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4426,7 +4434,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPxvVPEee8PuMtQHUdKg" name="reserveItem">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhHfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhHfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPx_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPx_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4446,7 +4454,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPyvVPEee8PuMtQHUdKg" name="giveComment">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhHvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LxhHvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPy_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPy_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4466,7 +4474,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMPzvVPEee8PuMtQHUdKg" name="persistUser">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIIPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIIPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPz_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMPz_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4474,7 +4482,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP0PVPEee8PuMtQHUdKg" name="persistItem">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIIfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIIfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP0fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP0fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4482,7 +4490,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP0vVPEee8PuMtQHUdKg" name="persistBid">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIIvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIIvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP0_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP0_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4490,7 +4498,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP1PVPEee8PuMtQHUdKg" name="persistBuyNow">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyII_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyII_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP1fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP1fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4498,7 +4506,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP1vVPEee8PuMtQHUdKg" name="persistComment">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIJPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIJPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP1_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP1_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4506,7 +4514,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP2PVPEee8PuMtQHUdKg" name="reduceInventoryItem">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIJfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIJfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP2fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP2fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4526,7 +4534,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP3PVPEee8PuMtQHUdKg" name="findUserById">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIJvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIJvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP3fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP3fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4534,7 +4542,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP3vVPEee8PuMtQHUdKg" name="findUserByNickname">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIJ_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIJ_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP3_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP3_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4542,7 +4550,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP4PVPEee8PuMtQHUdKg" name="findAllCategories">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIKPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIKPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP4fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP4fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4550,7 +4558,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP4vVPEee8PuMtQHUdKg" name="findCategoryById">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIKfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIKfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP4_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP4_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4558,7 +4566,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP5PVPEee8PuMtQHUdKg" name="findAllRegions">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIKvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIKvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP5fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP5fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4566,7 +4574,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP5vVPEee8PuMtQHUdKg" name="findRegionByName">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIK_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIK_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP5_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP5_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4574,7 +4582,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP6PVPEee8PuMtQHUdKg" name="findItemsByName">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyILPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyILPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP6fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP6fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4582,7 +4590,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP6vVPEee8PuMtQHUdKg" name="findItemById">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyILfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyILfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP6_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP6_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4590,7 +4598,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP7PVPEee8PuMtQHUdKg" name="findPersonalizedItems">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyILvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyILvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP7fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP7fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4598,7 +4606,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP7vVPEee8PuMtQHUdKg" name="isUserNicknameUsed">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIL_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIL_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP7_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP7_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4618,7 +4626,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP8vVPEee8PuMtQHUdKg" name="findItemMaxBids">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIMPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIMPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP8_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP8_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4626,7 +4634,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP9PVPEee8PuMtQHUdKg" name="findUserPastWinningBids">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIMfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIMfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP9fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP9fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4634,7 +4642,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP9vVPEee8PuMtQHUdKg" name="findUserCurrentMaxBids">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIMvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIMvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP9_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP9_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4642,7 +4650,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP-PVPEee8PuMtQHUdKg" name="findComment">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIM_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyIM_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP-fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP-fVPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4650,7 +4658,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP-vVPEee8PuMtQHUdKg" name="retrieveAvailabilityOfItem">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyINPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyINPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP-_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP-_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4670,7 +4678,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMP_vVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyINfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LyINfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP__VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMP__VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4690,7 +4698,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQAvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWQfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWQfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQA_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQA_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4710,7 +4718,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQBvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWRPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWRPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQB_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQB_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4730,7 +4738,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQCvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWR_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWR_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQC_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQC_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4750,7 +4758,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQDvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWSvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWSvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQD_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQD_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4770,7 +4778,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQEvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWTfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWTfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQE_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQE_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4790,7 +4798,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQFvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWUPVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWUPVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQF_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQF_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4810,7 +4818,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQGvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWU_VOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWU_VOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQG_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQG_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4830,7 +4838,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQHvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWVvVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWVvVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQH_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQH_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -4850,7 +4858,7 @@
       <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_OnMQIvVPEee8PuMtQHUdKg" name="filter">
         <target xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWWfVOEee8PuMtQHUdKg"/>
         <semanticElements xmi:type="comparch:PerformanceStats" href="mRUBiS_performance.comparch#_9LzWWfVOEee8PuMtQHUdKg"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQI_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.svg" labelPosition="node">
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_OnMQI_VPEee8PuMtQHUdKg" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelPosition="node">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@containerMappings[name='ProvidedInterfacePerformanceStats']/@subNodeMappings[name='PerformanceStats']"/>
@@ -5402,5 +5410,280 @@
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_OnM2oPVPEee8PuMtQHUdKg"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer"/>
     <target xmi:type="comparch:Tenant" href="mRUBiS_performance.comparch#_9LsBgPVOEee8PuMtQHUdKg"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_L2R6QABeEeiIW6p4W5tIRw" name="User Management Service Component Type" uid="_L2GUEABeEeiIW6p4W5tIRw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_L2R6QQBeEeiIW6p4W5tIRw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_L2R6QgBeEeiIW6p4W5tIRw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_L3NHUABeEeiIW6p4W5tIRw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_L3NHUQBeEeiIW6p4W5tIRw" type="Sirius" element="_L2R6QABeEeiIW6p4W5tIRw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_L3QxsABeEeiIW6p4W5tIRw" type="2001" element="_L2R6RABeEeiIW6p4W5tIRw">
+          <children xmi:type="notation:Node" xmi:id="_L3VqMABeEeiIW6p4W5tIRw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_L3VqMQBeEeiIW6p4W5tIRw" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3YGcABeEeiIW6p4W5tIRw" type="3001" element="_L2R6RQBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3YtgABeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3YtgQBeEeiIW6p4W5tIRw" x="-217" y="3"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3k6wABeEeiIW6p4W5tIRw" type="3002" element="_L2R6RgBeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3k6wQBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3k6wgBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3YGcQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3YGcgBeEeiIW6p4W5tIRw" x="-12" y="72" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3bJwABeEeiIW6p4W5tIRw" type="3001" element="_L2R6RwBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3bw0ABeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3bw0QBeEeiIW6p4W5tIRw" x="-248"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3lh0ABeEeiIW6p4W5tIRw" type="3002" element="_L2R6SABeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3lh0QBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3lh0gBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3bJwQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3bJwgBeEeiIW6p4W5tIRw" x="-12" y="24" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3bw0gBeEeiIW6p4W5tIRw" type="3001" element="_L2R6SQBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3cX4ABeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3cX4QBeEeiIW6p4W5tIRw" x="-255" y="6"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3lh0wBeEeiIW6p4W5tIRw" type="3002" element="_L2R6SgBeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3lh1ABeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3lh1QBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3bw0wBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3bw1ABeEeiIW6p4W5tIRw" x="-12" y="102" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3cX4gBeEeiIW6p4W5tIRw" type="3001" element="_L2R6SwBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3c-8QBeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3c-8gBeEeiIW6p4W5tIRw" x="-238"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3mI4ABeEeiIW6p4W5tIRw" type="3002" element="_L2R6TABeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3mI4QBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3mI4gBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3cX4wBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3c-8ABeEeiIW6p4W5tIRw" x="-12" y="48" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3dmAABeEeiIW6p4W5tIRw" type="3001" element="_L2R6TQBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3eNEABeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3eNEQBeEeiIW6p4W5tIRw" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3mv8ABeEeiIW6p4W5tIRw" type="3002" element="_L2R6TgBeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3mv8QBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3mv8gBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3dmAQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3dmAgBeEeiIW6p4W5tIRw" x="142" y="60" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3fbMABeEeiIW6p4W5tIRw" type="3001" element="_L2R6TwBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3gCQABeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3gCQQBeEeiIW6p4W5tIRw" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3nXAABeEeiIW6p4W5tIRw" type="3002" element="_L2R6UABeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3nXAQBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3nXAgBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3fbMQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3fbMgBeEeiIW6p4W5tIRw" x="142" y="108" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3gpUABeEeiIW6p4W5tIRw" type="3001" element="_L2R6UQBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3hQYABeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3hQYQBeEeiIW6p4W5tIRw" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3n-EABeEeiIW6p4W5tIRw" type="3002" element="_L2R6UgBeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3n-EQBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3n-EgBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3gpUQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3gpUgBeEeiIW6p4W5tIRw" x="142" y="24" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3iegABeEeiIW6p4W5tIRw" type="3001" element="_L2R6UwBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3jFkABeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3jFkQBeEeiIW6p4W5tIRw" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3qaUABeEeiIW6p4W5tIRw" type="3002" element="_L2R6VABeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3qaUQBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3qaUgBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3iegQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3ieggBeEeiIW6p4W5tIRw" x="142" y="84" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3jsoABeEeiIW6p4W5tIRw" type="3001" element="_L2R6VQBeEeiIW6p4W5tIRw">
+            <children xmi:type="notation:Node" xmi:id="_L3jsowBeEeiIW6p4W5tIRw" type="5001">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_L3jspABeEeiIW6p4W5tIRw" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_L3rBYABeEeiIW6p4W5tIRw" type="3003" element="_L2R6VgBeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_L3rBYQBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3rBYgBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3jsoQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3jsogBeEeiIW6p4W5tIRw" x="36" y="-22" width="73" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L3kTsABeEeiIW6p4W5tIRw" type="3003" element="_L2R6VwBeEeiIW6p4W5tIRw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L3kTsQBeEeiIW6p4W5tIRw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3kTsgBeEeiIW6p4W5tIRw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_L3QxsQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L3QxsgBeEeiIW6p4W5tIRw" x="516" y="144" width="150" height="133"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_L3NHUgBeEeiIW6p4W5tIRw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_L2R6RABeEeiIW6p4W5tIRw" name="User Management Service" width="15" height="10" resizeKind="NSEW">
+      <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lo-MPVOEee8PuMtQHUdKg"/>
+      <semanticElements xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lo-MPVOEee8PuMtQHUdKg"/>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6RQBeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.usermgmt.AboutMeService" tooltipText="Provided Interface Type" width="2" height="2">
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJJPVOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJJPVOEee8PuMtQHUdKg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_L2R6RgBeEeiIW6p4W5tIRw" showIcon="false" backgroundColor="0,0,0">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6RwBeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.usermgmt.BrowseRegionsService" tooltipText="Provided Interface Type" width="2" height="2">
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwEfVOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwEfVOEee8PuMtQHUdKg"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_L2R6SABeEeiIW6p4W5tIRw" showIcon="false" backgroundColor="0,0,0">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6SQBeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.usermgmt.UserRegistrationService" tooltipText="Provided Interface Type" width="2" height="2">
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwE_VOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwE_VOEee8PuMtQHUdKg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_L2R6SgBeEeiIW6p4W5tIRw" showIcon="false" backgroundColor="0,0,0">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6SwBeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.usermgmt.ViewUserInfoService" tooltipText="Provided Interface Type" width="2" height="2">
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwFfVOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnwFfVOEee8PuMtQHUdKg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_L2R6TABeEeiIW6p4W5tIRw" showIcon="false" backgroundColor="0,0,0">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ProvidedInterfaceType']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6TQBeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.authservice.AuthenticationService" tooltipText="Required Interface Type" width="2" height="2">
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LhpcPVOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LhpcPVOEee8PuMtQHUdKg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_L2R6TgBeEeiIW6p4W5tIRw" showIcon="false" borderSize="2" borderSizeComputationExpression="2" backgroundColor="255,255,255">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6TwBeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.queryservice.QueryService" tooltipText="Required Interface Type" width="2" height="2">
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Lmh9_VOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Lmh9_VOEee8PuMtQHUdKg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_L2R6UABeEeiIW6p4W5tIRw" showIcon="false" borderSize="2" borderSizeComputationExpression="2" backgroundColor="255,255,255">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6UQBeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.queryservice.BasicQueryService" tooltipText="Required Interface Type" width="2" height="2">
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJEfVOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LnJEfVOEee8PuMtQHUdKg"/>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_L2R6UgBeEeiIW6p4W5tIRw" showIcon="false" borderSize="2" borderSizeComputationExpression="2" backgroundColor="255,255,255">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6UwBeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.persistenceservice.BusinessObjectsPersistenceService" tooltipText="Required Interface Type" width="2" height="2">
+        <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Ll64fVOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9Ll64fVOEee8PuMtQHUdKg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Dot" xmi:id="_L2R6VABeEeiIW6p4W5tIRw" showIcon="false" borderSize="2" borderSizeComputationExpression="2" backgroundColor="255,255,255">
+          <description xmi:type="style:DotDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='RequiredInterfaceType']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" xmi:id="_L2R6VQBeEeiIW6p4W5tIRw" name="privacy-level: LOW" tooltipText="Parameter Type" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="comparch:ParameterType" href="mRUBiS_performance.comparch#_9LqzYPVOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:ParameterType" href="mRUBiS_performance.comparch#_9LqzYPVOEee8PuMtQHUdKg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_L2R6VgBeEeiIW6p4W5tIRw" showIcon="false" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ParameterType']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@borderedNodeMappings[name='ParameterType']"/>
+      </ownedBorderedNodes>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_L2R6VwBeEeiIW6p4W5tIRw" labelSize="10" showIcon="false" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" width="15" height="10" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_L2R6WABeEeiIW6p4W5tIRw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer"/>
+    <target xmi:type="comparch:ComponentType" href="mRUBiS_performance.comparch#_9Lo-MPVOEee8PuMtQHUdKg"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram xmi:id="_U625IABeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.authservice.AuthenticationService Interface Type" uid="_U6ynsABeEeiIW6p4W5tIRw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_U625IQBeEeiIW6p4W5tIRw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_U625IgBeEeiIW6p4W5tIRw"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_U7B4QABeEeiIW6p4W5tIRw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_U7B4QQBeEeiIW6p4W5tIRw" type="Sirius" element="_U625IABeEeiIW6p4W5tIRw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_U7DGYABeEeiIW6p4W5tIRw" type="2003" element="_U625JABeEeiIW6p4W5tIRw">
+          <children xmi:type="notation:Node" xmi:id="_U7EUgABeEeiIW6p4W5tIRw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_U7E7kABeEeiIW6p4W5tIRw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_U7GJsABeEeiIW6p4W5tIRw" type="3010" element="_U625JgBeEeiIW6p4W5tIRw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_U7GJsQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="10"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_U7GJsgBeEeiIW6p4W5tIRw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_U7E7kQBeEeiIW6p4W5tIRw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_U7E7kgBeEeiIW6p4W5tIRw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_U7DGYQBeEeiIW6p4W5tIRw" fontName="Ubuntu" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U7DGYgBeEeiIW6p4W5tIRw" x="288" y="120"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_U7B4QgBeEeiIW6p4W5tIRw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_U625JABeEeiIW6p4W5tIRw" name="de.hpi.sam.rubis.authservice.AuthenticationService">
+      <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LhpcPVOEee8PuMtQHUdKg"/>
+      <semanticElements xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LhpcPVOEee8PuMtQHUdKg"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_U625JQBeEeiIW6p4W5tIRw" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/Interface_Icon.png" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,255,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer/@containerMappings[name='InterfaceType']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer/@containerMappings[name='InterfaceType']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_U625JgBeEeiIW6p4W5tIRw" name="authenticate(java.lang.String,java.lang.String)">
+        <target xmi:type="comparch:MethodSpecification" href="mRUBiS_performance.comparch#_9LjeoPVOEee8PuMtQHUdKg"/>
+        <semanticElements xmi:type="comparch:MethodSpecification" href="mRUBiS_performance.comparch#_9LjeoPVOEee8PuMtQHUdKg"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_U625JwBeEeiIW6p4W5tIRw" labelSize="10" iconPath="/de.mdelab.comparch.editor.graphical/icons/MethodSpecification_Icon.png" labelAlignment="LEFT" labelPosition="node" color="255,255,255">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer/@containerMappings[name='InterfaceType']/@subNodeMappings[name='MethodSpecification']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer/@containerMappings[name='InterfaceType']/@subNodeMappings[name='MethodSpecification']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_U625KABeEeiIW6p4W5tIRw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/de.mdelab.comparch.editor.graphical/description/comparch.odesign#//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer"/>
+    <target xmi:type="comparch:InterfaceType" href="mRUBiS_performance.comparch#_9LhpcPVOEee8PuMtQHUdKg"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>

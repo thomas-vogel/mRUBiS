@@ -127,7 +127,6 @@ public class Services {
 	}
 
 	public Collection<AdaptationStrategy> getAllAdaptationStrategies(Tenant tenant) {
-		System.out.println(tenant.getName());
 		Collection<AdaptationStrategy> result = new LinkedList<AdaptationStrategy>();
 		TreeIterator<EObject> eObjects = tenant.eAllContents();
 		while (eObjects.hasNext()) {
@@ -139,7 +138,6 @@ public class Services {
 				}
 			}
 		}
-		System.out.println(result.size());
 		return result;
 	}
 
