@@ -22,10 +22,6 @@ import de.mdelab.simulator.SimulatorImpl;
 public class LogUtil {
 
 	/**
-	 * Folder where the logs and simulation results are stored.
-	 */
-	protected static String RESULTS_FOLDER = "./results/";
-	/**
 	 * The name of the log file.
 	 */
 	protected static String LOG_FILE = "Simulator.log";
@@ -47,6 +43,26 @@ public class LogUtil {
 	 * Separator to structure the log file.
 	 */
 	public final static String H1 = "**********************************************************************************************\n**********************************************************************************************";
+
+	/**
+	 * Folder where the logs and simulation results are stored.
+	 * 
+	 * @return folder to store the logs and results
+	 */
+	public static String getResultsFolder() {
+		String folderName = "results";
+		if (isWindows()) {
+			return ".\\" + folderName + "\\";
+		} else {
+			return "./" + folderName + "/";
+		}
+	}
+
+	private static String OS = System.getProperty("os.name").toLowerCase();
+
+	private static boolean isWindows() {
+		return (OS.indexOf("win") >= 0);
+	}
 
 	/**
 	 * Configures the logging of the simulator.
@@ -101,7 +117,7 @@ public class LogUtil {
 		}
 
 		try {
-			FileHandler fileHandler = new FileHandler(RESULTS_FOLDER + LOG_FILE);
+			FileHandler fileHandler = new FileHandler(getResultsFolder() + LOG_FILE);
 			fileHandler.setLevel(logLevel);
 			fileHandler.setFormatter(formatterTxt);
 			logger.addHandler(fileHandler);

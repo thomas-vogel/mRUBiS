@@ -89,7 +89,7 @@ public class PerformanceResults extends SimulationResults<PerformanceEntry> {
 	 */
 	@Override
 	public void saveResults(Date timestamp) {
-		String filename = LogUtil.RESULTS_FOLDER + "ExecutionTime__" + timestamp.toString();
+		String filename = LogUtil.getResultsFolder() + "ExecutionTime__" + timestamp.toString();
 
 		// Create Chart
 		CategoryChart chart = new CategoryChartBuilder().width(1024).height(768)
