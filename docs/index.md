@@ -1,10 +1,6 @@
----
-title: mRUBiS Exemplar
-permalink: mRUBiS/index.html
-layout: page
----
+# mRUBiS
 
-<img src="/assets/img/mRUBiS.png" alt="mRUBiS" style="float: right; margin-top: 0em; margin-left: 0em; margin-right: 25px;"/>
+<img src="mRUBiS.png" alt="mRUBiS" style="float: right; margin-top: 0em; margin-left: 0em; margin-right: 25px;"/>
 
 This is the Eclipse Update Site for the mRUBiS Exemplar.
 Details about the exemplar can be found at the [mRUBiS GitHub project](https://github.com/thomas-vogel/mRUBiS){:target="_blank"}.
@@ -17,4 +13,4 @@ To install mRUBiS, use this URL
 
 in Eclipse (Help > Install New Software):
 
-<img src="/assets/img/mRUBiS-UpdateSite.png" alt="mRUBiS" style="float: left; width: 90%; margin-top: 1em; margin-left: 1em; margin-right: 1em;"/>
+<img src="mRUBiS-UpdateSite.png" alt="mRUBiS" style="float: left; width: 90%; margin-top: 1em; margin-left: 1em; margin-right: 1em;"/>
