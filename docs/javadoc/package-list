@@ -1,0 +1,13 @@
+de.mdelab.comparch
+de.mdelab.comparch.impl
+de.mdelab.comparch.util
+de.mdelab.simulator
+de.mdelab.simulator.events
+de.mdelab.simulator.impl
+de.mdelab.simulator.mrubis
+de.mdelab.simulator.mrubis.genmodel
+de.mdelab.simulator.mrubis.injectors
+de.mdelab.simulator.mrubis.utility
+de.mdelab.simulator.mrubis.validators
+de.mdelab.simulator.validators
+de.mdelab.simulator.validators.events
