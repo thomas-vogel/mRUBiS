@@ -145,7 +145,7 @@
         </toolSections>
       </defaultLayer>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="ComponentTypeDiagram" titleExpression="[self.name.concat(' Component Type')/]" domainClass="comparch::ComponentType" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="ComponentTypeDiagram" titleExpression="aql:self.name.concat(' Component Type')" domainClass="comparch::ComponentType" enablePopupBars="true">
       <metamodel href="http://www.mdelab.de/comparch#/"/>
       <defaultLayer name="Default">
         <nodeMappings name="ComponentType" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteComponentType']" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditNames']" semanticCandidatesExpression="var:self" domainClass="comparch::ComponentType">
@@ -198,7 +198,7 @@
             <elementView name="elementView"/>
             <containerView name="containerView"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool_1:Unset" featureName="requiringComponentTypes" elementExpression="[self.requiringComponentTypes/]"/>
+              <firstModelOperations xsi:type="tool_1:Unset" featureName="requiringComponentTypes" elementExpression="aql:self.requiringComponentTypes"/>
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool_1:SelectionWizardDescription" name="AddRequiredInterfaceType " label="Add Required Interface Type" precondition="aql:self.oclIsTypeOf(comparch::ComponentType)" forceRefresh="true" candidatesExpression="service:getAllInterfaceTypes" iconPath="/de.mdelab.comparch.editor.graphical/icons/RequiredInterface_Icon.png" windowTitle="Select Interface Type as Provided Interface Type">
@@ -216,7 +216,7 @@
             <elementView name="elementView"/>
             <containerView name="containerView"/>
             <initialOperation>
-              <firstModelOperations xsi:type="tool_1:Unset" featureName="providingComponentTypes" elementExpression="[self.providingComponentTypes/]"/>
+              <firstModelOperations xsi:type="tool_1:Unset" featureName="providingComponentTypes" elementExpression="aql:self.providingComponentTypes"/>
             </initialOperation>
           </ownedTools>
           <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateParameterType" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']" iconPath="/de.mdelab.comparch.editor.graphical/icons/Parameter_Icon.png" extraMappings="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@nodeMappings[name='ComponentType']">
@@ -290,7 +290,7 @@
         </toolSections>
       </defaultLayer>
     </ownedRepresentations>
-    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="InterfaceTypeDiagram" titleExpression="[self.fqName.concat(' Interface Type')/]" domainClass="comparch::InterfaceType" enablePopupBars="true">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="InterfaceTypeDiagram" titleExpression="aql:self.fqName.concat(' Interface Type')" domainClass="comparch::InterfaceType" enablePopupBars="true">
       <metamodel href="http://www.mdelab.de/comparch#/"/>
       <defaultLayer name="Default">
         <containerMappings name="InterfaceType" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='InterfaceTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='AvoidDeleteInterfaceType']" semanticCandidatesExpression="var:self" domainClass="comparch::InterfaceType" childrenPresentation="List">
