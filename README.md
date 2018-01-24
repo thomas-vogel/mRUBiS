@@ -1,4 +1,6 @@
-# mRUBiS
+
+![mRUBiS](./docs/mRUBiS.png)
+
 mRUBiS is an exemplar for self-adaptive software, particularly for developing, testing, and evaluating adaptation engines that perform model-based architectural self-adaptation.
 
 ## Motivation
