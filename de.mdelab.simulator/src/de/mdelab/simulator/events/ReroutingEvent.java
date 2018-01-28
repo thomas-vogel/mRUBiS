@@ -5,8 +5,8 @@ import de.mdelab.comparch.RequiredInterface;
 
 /**
  * Change event notifying about a re-routing, that is, the removal and addition
- * of a {@link Connector} in the model to (re-)wire a required interface to
- * another provided interface.
+ * of a {@link Connector} to (re-)wire a required interface to a different
+ * provided interface than before.
  * 
  * @author thomas vogel
  * @version 0.41

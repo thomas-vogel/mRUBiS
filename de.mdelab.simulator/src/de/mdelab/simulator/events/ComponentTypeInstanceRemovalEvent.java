@@ -6,7 +6,7 @@ import de.mdelab.comparch.ComponentType;
 /**
  * Change event notifying about the removal of a {@link Component} from a
  * {@link ComponentType}, that is, when an instance of the component type is
- * removed (see {@link ComponentType#getInstances()}.
+ * removed (see {@link ComponentType#getInstances()}).
  * 
  * @author thomas vogel
  * @version 0.41

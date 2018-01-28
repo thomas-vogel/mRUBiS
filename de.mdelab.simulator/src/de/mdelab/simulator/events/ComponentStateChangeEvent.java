@@ -4,8 +4,8 @@ import de.mdelab.comparch.Component;
 import de.mdelab.comparch.ComponentState;
 
 /**
- * Change event notifying about a change of the state (see
- * {@link Component#getState()} of a {@link Component}.
+ * Change event notifying about a change of the life cycle state (see
+ * {@link Component#getState()}) of a {@link Component}.
  * 
  * @author thomas vogel
  * @version 0.41
