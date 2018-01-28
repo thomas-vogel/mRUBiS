@@ -354,14 +354,14 @@
       <defaultLayer name="Default">
         <nodeMappings name="Component" navigationDescriptions="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenComponentType']" labelDirectEdit="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='TenantArchitectureDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='EditComponentName']" semanticCandidatesExpression="feature:components" domainClass="comparch::Component">
           <borderedNodeMappings name="ProvidedInterface" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RemoveProvidedInterfaceType']" semanticCandidatesExpression="feature:providedInterfaces" domainClass="comparch::ProvidedInterface">
-            <style xsi:type="style:DotDescription" showIcon="false" labelExpression="service:getUnqualifiedInterfaceName()" tooltipExpression="Provided Interface" sizeComputationExpression="2">
+            <style xsi:type="style:DotDescription" showIcon="false" labelExpression="service:getUnqualifiedInterfaceName()" tooltipExpression="aql:self.type.fqName" sizeComputationExpression="2">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </style>
           </borderedNodeMappings>
           <borderedNodeMappings name="RequiredInterface" deletionDescription="//@ownedViewpoints[name='CompArch']/@ownedRepresentations[name='ComponentTypeDiagram']/@defaultLayer/@toolSections.0/@ownedTools[name='RemoveRequiredInterfaceType']" semanticCandidatesExpression="feature:requiredInterfaces" domainClass="comparch::RequiredInterface">
-            <style xsi:type="style:DotDescription" borderSizeComputationExpression="2" showIcon="false" labelExpression="service:getUnqualifiedInterfaceName()" tooltipExpression="Required Interface" sizeComputationExpression="2">
+            <style xsi:type="style:DotDescription" borderSizeComputationExpression="2" showIcon="false" labelExpression="service:getUnqualifiedInterfaceName()" tooltipExpression="aql:self.type.fqName" sizeComputationExpression="2">
               <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
               <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
