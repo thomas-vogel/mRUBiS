@@ -2,7 +2,7 @@
 
 ## Quick guide
  * [Install mRUBiS](https://github.com/thomas-vogel/mRUBiS/wiki/Install-mRUBiS)
- * [Experiment with the example solutions built on top of mRUBiS](https://github.com/thomas-vogel/mRUBiS/wiki/Example-Solutions)
+ * [Experiment with the example solutions built on top of mRUBiS for self-healing and self-optimization](https://github.com/thomas-vogel/mRUBiS/wiki/Example-Solutions)
  * Details can be found below and in the [Wiki](https://github.com/thomas-vogel/mRUBiS/wiki).
 
 
