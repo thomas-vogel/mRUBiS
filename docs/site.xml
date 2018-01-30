@@ -3,7 +3,7 @@
    <description name="mRUBiS Exemplar -- Eclipse Update Site" url="https://thomas-vogel.github.io/mRUBiS">
       mRUBiS Exemplar -- Eclipse Update Site.
    </description>
-   <feature url="features/de.mdelab.simulator.mrubis.feature_1.0.0.201801241455.jar" id="de.mdelab.simulator.mrubis.feature" version="1.0.0.201801241455">
+   <feature url="features/de.mdelab.simulator.mrubis.feature_1.0.0.201801301850.jar" id="de.mdelab.simulator.mrubis.feature" version="1.0.0.201801301850">
       <category name="mRUBiS-Exemplar"/>
    </feature>
    <category-def name="mRUBiS-Exemplar" label="mRUBiS Exemplar"/>
