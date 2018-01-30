@@ -46,22 +46,21 @@ import de.mdelab.simulator.mrubis.MRubisModelQuery;
  */
 public class MRubisSelfOptimizationUtilityFunction extends MRubisSelfHealingUtilityFunction {
 
-	int upperThreshold;
+	int responseTimeUpperThreshold;
 
 	/**
 	 * Constructor.
 	 * 
-	 * @param upperThreshold
-	 *            the upper threshold for the average response time of the
-	 *            personalized search
-	 * 
 	 * @param exceptionThreshold
 	 *            threshold for the numbers of exceptions that would cause a CF2
 	 *            issue in the self-healing case.
+	 * @param responseTimeUpperThreshold
+	 *            the upper threshold for the average response time of the
+	 *            personalized search
 	 */
-	public MRubisSelfOptimizationUtilityFunction(int upperThreshold, int exceptionThreshold) {
+	public MRubisSelfOptimizationUtilityFunction(int exceptionThreshold, int responseTimeUpperThreshold) {
 		super(exceptionThreshold);
-		this.upperThreshold = upperThreshold;
+		this.responseTimeUpperThreshold = responseTimeUpperThreshold;
 	}
 
 	/**
@@ -100,7 +99,7 @@ public class MRubisSelfOptimizationUtilityFunction extends MRubisSelfHealingUtil
 			// check avg response time
 			PerformanceStats stats = MRubisModelQuery.INSTANCE.getPerformanceStatsOfPersonalizedSearch(tenant);
 			double avgResponseTime = stats.getTotalTime() / stats.getInvocationCount();
-			if (avgResponseTime > this.upperThreshold) {
+			if (avgResponseTime > this.responseTimeUpperThreshold) {
 				tenantUtility *= 0.8;
 			}
 
