@@ -2,7 +2,7 @@
 
 ## Quick guide
  * [Install mRUBiS](https://github.com/thomas-vogel/mRUBiS/wiki/Install-mRUBiS)
- * [Experiment with the example solutions built on top of mRUBiS for self-healing and self-optimization](https://github.com/thomas-vogel/mRUBiS/wiki/Example-Solutions). These examples use the exemplar's simulator as described [here](https://github.com/thomas-vogel/mRUBiS/wiki/Using-the-Simulator). 
+ * [Experiment with the example solutions built on top of mRUBiS for self-healing and self-optimization](https://github.com/thomas-vogel/mRUBiS/wiki/Example-Solutions). These examples use the exemplar's simulator as described [here](https://github.com/thomas-vogel/mRUBiS/wiki/Using-the-Simulator).
  * Details can be found below and in the [Wiki](https://github.com/thomas-vogel/mRUBiS/wiki).
 
 
@@ -39,3 +39,7 @@ mRUBiS has been developed and tested on Ubuntu 16.04, only basic tests have been
 
 ## More information
 A detailed description of the mRUBiS exemplar, the CompArch language, modeling editor, and the use of the exemplar can be found in the [Wiki](https://github.com/thomas-vogel/mRUBiS/wiki).
+
+## Relation to mRUBiS-EJB3
+While this exemplar simulates mRUBiS as the adaptable software to have a light-weight environment for experimenting with model-based self-adaptation solutions, there exists a real prototype of mRUBiS.
+This prototype is implemented with EJB3 technology and can be deployed to the GlassFish application server. The prototype is called [_mRUBiS-EJB3_](https://github.com/thomas-vogel/mRUBiS-EJB3).
