@@ -3,6 +3,10 @@
 
 mRUBiS is an exemplar for self-adaptive software, particularly for developing, evaluating, and comparing adaptation engines that perform model-based architectural self-adaptation.
 
+mRUBiS has been accepted as an exemplar to [SEAMS'18](http://2018.seams-symposia.org). A pre-print of the paper is available:
+
+[Thomas Vogel. "mRUBiS: An Exemplar for Model-Based Architectural Self-Healing and Self-Optimization". In: International Symposium on Software Engineering for Adaptive and Self-Managing Systems. SEAMS ’18. ACM, 2018.](https://arxiv.org/abs/1804.00954).
+
 ## Motivation
 Self-adaptive software systems are often structured into an adaptation engine that manages an adaptable software by operating on a runtime model that represents the architecture of the software (_model-based architectural self-adaptation_). Despite the popularity of such approaches, existing exemplars provide application programming interfaces but no runtime model to develop adaptation engines. Consequently, there does not exist any exemplar that supports developing, evaluating, an comparing model-based self-adaptation off the shelf. For this purpose, we present _mRUBiS_.
 
